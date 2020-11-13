@@ -1,0 +1,171 @@
+﻿@model GP.Petstar.Web.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Register";
+}
+
+
+<div id="cntLogo">
+    <img id="imgLogo" src="~/imagenes/logo 79px.png" />
+</div>
+        <div class="title">Registro</div>
+<div class="box">
+    <div class="" id="contRegistro">
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "", role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <fieldset>
+                <legend>Por favor, ingrese los datos para realizar el registro.</legend>
+                @Html.ValidationSummary("", new { @class = "text-danger" })
+
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="input-block">
+                            @Html.LabelFor(m => m.Nombres, new { @class = "col-md-12 control-label" })
+                            <div class="col-md-12">
+                                @Html.TextBoxFor(m => m.Nombres, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-block">
+                            @Html.LabelFor(m => m.ApPaterno, new { @class = "col-md-12 control-label" })
+                            <div class="col-md-12">
+                                @Html.TextBoxFor(m => m.ApPaterno, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </div><div class="col-md-4">
+                        <div class="input-block">
+                            @Html.LabelFor(m => m.ApMaterno, new { @class = "col-md-12 control-label" })
+                            <div class="col-md-12">
+                                @Html.TextBoxFor(m => m.ApMaterno, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="input-block">
+                            @Html.LabelFor(m => m.Email, new { @class = "col-md-12 control-label" })
+                            <div class="col-md-12">
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-block">
+                            @Html.LabelFor(m => m.Edad, new { @class = "col-md-12 control-label" })
+                            <div class="col-md-12">
+                                @Html.TextBoxFor(m => m.Edad, new { type = "number", min = "0", step = "1" })
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-block">
+                            @Html.LabelFor(m => m.PertenecesA, new { @class = "col-md-12 control-label" })
+                            <div class="col-md-12">
+                                @Html.DropDownList("PertenecesA", new List<SelectListItem>
+                                    {
+                                           new SelectListItem{ Text="Soy estudiante y/o profesor", Value = "1" },
+                                           new SelectListItem{ Text="Soy empresa", Value = "2" },
+                                           new SelectListItem{ Text="Soy autoridad de Gobierno", Value = "3" },
+                                           new SelectListItem{ Text="Soy medio de comunicación", Value = "4" },
+                                           new SelectListItem{ Text="Soy una fundación u Organización", Value = "5" }
+                                    })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="input-block">
+                            @Html.LabelFor(m => m.Estatus, new { @class = "col-md-12 control-label" })
+                            <div class="col-md-12">
+                                @Html.DropDownList("Estatus", new List<SelectListItem>
+                                    {
+                                         new SelectListItem{  Value = "1" , Text=" Aguascalientes"},
+                                         new SelectListItem{  Value = "2" , Text="Baja California"},
+                                         new SelectListItem{  Value = "3" , Text="Baja California Sur"},
+                                         new SelectListItem{  Value = "4" , Text="Campeche"},
+                                         new SelectListItem{  Value = "5" , Text="Chiapas"},
+                                         new SelectListItem{  Value = "6" , Text="Chihuahua"},
+                                         new SelectListItem{  Value = "7" , Text="Ciudad de México"},
+                                         new SelectListItem{  Value = "8" , Text="Coahuila"},
+                                         new SelectListItem{  Value = "9" , Text="Colima"},
+                                         new SelectListItem{  Value = "10" , Text="Durango"},
+                                         new SelectListItem{  Value = "11" , Text="Estado de México"},
+                                         new SelectListItem{  Value = "12" , Text="Guanajuato"},
+                                         new SelectListItem{  Value = "13" , Text="Guerrero"},
+                                         new SelectListItem{  Value = "14" , Text="Hidalgo"},
+                                         new SelectListItem{  Value = "15" , Text="Jalisco"},
+                                         new SelectListItem{  Value = "16" , Text="Michoacán"},
+                                         new SelectListItem{  Value = "17" , Text="Morelos"},
+                                         new SelectListItem{  Value = "18" , Text="Nayarit"},
+                                         new SelectListItem{  Value = "19" , Text="Nuevo León"},
+                                         new SelectListItem{  Value = "20" , Text="Oaxaca"},
+                                         new SelectListItem{  Value = "21" , Text="Puebla"},
+                                         new SelectListItem{  Value = "22" , Text="Querétaro"},
+                                         new SelectListItem{  Value = "23" , Text="Quintana Roo"},
+                                         new SelectListItem{  Value = "24" , Text="San Luis Potosí"},
+                                         new SelectListItem{  Value = "25" , Text="Sinaloa"},
+                                         new SelectListItem{  Value = "26" , Text="Sonora"},
+                                         new SelectListItem{  Value = "27" , Text="Tabasco"},
+                                         new SelectListItem{  Value = "28" , Text="Tamaulipas"},
+                                         new SelectListItem{  Value = "29" , Text="Tlaxcala"},
+                                         new SelectListItem{  Value = "30" , Text="Veracruz"},
+                                         new SelectListItem{  Value = "31" , Text="Yucatán"},
+                                         new SelectListItem{  Value = "32" , Text="Zacatecas"}
+                                    })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-block">
+                            @Html.LabelFor(m => m.Password, new { @class = "col-md-12 control-label" })
+                            <div class="col-md-12">
+                                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-block">
+                            @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-12 control-label" })
+                            <div class="col-md-12">
+                                @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div class="row groupData">
+                <div class="col-md-6">
+                    @Html.ActionLink("Iniciar sesión", "Login", new { }, new { id = "btnLogin", @class = "btnLinkSection" })
+                </div>
+                <div class="col-md-6">
+                    <button type="submit" class="btn-signup">
+                        <img src="~/imagenes/bo1.png" />
+                    </button>
+                </div>
+            </div>
+           
+        }
+    </div>
+
+</div>
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<style>
+    body {
+        background: url(../imagenes/b13.jpg) 0 no-repeat;
+    }
+</style>

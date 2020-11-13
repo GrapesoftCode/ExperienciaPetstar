@@ -1,0 +1,79 @@
+﻿@using GP.Petstar.Web.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Log in";
+}
+
+<div id="cntLogo">
+    <img id="imgLogo" src="~/imagenes/logo 79px.png" />
+</div>
+
+
+<div class="title">Login</div>
+<div class="box">
+    <div class="" id="contRegistro">
+        @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "formLogin", role = "form" }))
+        {
+            <fieldset>
+                <legend>Por favor, ingrese su usuario y contraseña para entrar al recorrido.</legend>
+                @Html.AntiForgeryToken()
+
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="row groupData">
+
+                    @Html.LabelFor(m => m.Email, new { @class = "col-md-12 control-label" })
+                    <div class="col-md-12">
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="row groupData">
+                    @Html.LabelFor(m => m.Password, new { @class = "col-md-12 control-label" })
+                    <div class="col-md-12">
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                @*<div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <div class="checkbox">
+                                @Html.CheckBoxFor(m => m.RememberMe)
+                                @Html.LabelFor(m => m.RememberMe)
+                            </div>
+                        </div>
+                    </div>*@
+                <div class="row groupData">
+                    <div class="col-md-6">
+                        @Html.ActionLink("Registrar nuevo usuario.", "Register", new { }, new { id = "btnRegister", @class = "btnLinkSection" })
+                    </div>
+                    <div class="col-md-6">
+                        <button type="submit" class="btn-signup">
+                            <img src="~/imagenes/bo1.png" />
+                        </button>
+                    </div>
+                </div>
+                @*<p>
+                        @Html.ActionLink("Register as a new user", "Register")
+                    </p>*@
+                @* Enable this once you have account confirmation enabled for password reset functionality
+                    <p>
+                        @Html.ActionLink("Forgot your password?", "ForgotPassword")
+                    </p>*@
+            </fieldset>
+        }
+
+
+    </div>
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<style>
+    body {
+        background: url(../imagenes/b13.jpg) 0 no-repeat;
+    }
+</style>
