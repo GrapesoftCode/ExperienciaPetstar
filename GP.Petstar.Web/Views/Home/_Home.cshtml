@@ -94,7 +94,7 @@
 
 <div id="intro">
 
-    <a id="fleche" href="#fond19"><img alt="fleche" src="images/fleche2.png"></a>
+    @*<a id="fleche" href="#fond19"><img alt="fleche" src="images/fleche2.png"></a>*@
     <div class="inicio">
         <span href="#" class="float">
             <i class="fa fa-envelope my-float"></i>
@@ -151,7 +151,7 @@
             <div class="row ">
                 <img class="tierra" src="imagenes/pasandotierra.gif">
             </div>
-            <div class="row">
+            <div class="row contImages">
                 <div class="col-md-4 col-xs-12 meahogo">
                     <img class="trigger" src="imagenes/meahogo.png" onclick="toggleModal('#modalTravelerOne')">
                     <a title="PDF" href="documents/Braking the plastic Wave informe completo.pdf" target="_new">
@@ -167,7 +167,7 @@
 
                 </div>
                 <div class="col-md-4 col-xs-12 meahogo">
-                    <img src="imagenes/unamordida.png" onclick="toggleModal('#modalTravelerThree')">
+                    <img class="trigger" src="imagenes/unamordida.png" onclick="toggleModal('#modalTravelerThree')">
                     <a title="PDF" href="documents/Earth Overshoot Day - Final.pdf" target="_new">
                         <img src="imagenes/verMas.png">
                     </a>
@@ -977,10 +977,6 @@ $(function () {
 
 
 <script type="text/javascript">
-    if (window.innerWidth <= 1024) {
-        $(location).attr('href', 'mobile/index.html');
-
-    }
     $(window).load(function () {
         $('body, html').scrollTop(0);
         $("#loader").fadeToggle({ display: "none" }, "slow");

@@ -192,7 +192,7 @@ img {
     background: url(../imagenes/b1.jpg) 0 no-repeat;
     background-color: #82cddc;
     background-position: center;
-    background-size: auto;
+    background-size: cover;
     position: relative;
     height: 100%;
     width: 100%;
@@ -204,7 +204,7 @@ img {
     /*#intro .bg{
 	background: url(../imagenes/1.png) no-repeat;
 	background-size: contain;
-	height: 120%;
+	height: 100%;
 	padding: 0;
 	position: absolute;
 	width:inherit;
@@ -249,9 +249,9 @@ img {
 #traveler {
     background: url(../imagenes/b3.jpg);
     background-color: #8f1a71;
-    background-size: auto;
+    background-size: cover;
     color: white;
-    height: 120%;
+    height: 100%;
     width: 100%;
     margin: 0 auto;
     padding-top: 0;
@@ -261,7 +261,7 @@ img {
 
     #traveler .bg {
         background: url(../images/traveler.png) no-repeat;
-        height: 120%;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -274,15 +274,16 @@ img {
 #third {
     background: url(../imagenes/b4.jpg) 50% 0 fixed;
     background-color: #b1deed;
-    background-size: auto;
+    background-size: cover;
     color: white;
-    height: 120%;
+    height: 100%;
+    width: 100%;
     padding: 0;
 }
 
     #third .bg {
         background: url(../imagenes/4.png) 50% 78.5% no-repeat fixed;
-        height: 120%;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -292,15 +293,16 @@ img {
 #hipster {
     background: url(../imagenes/b5.jpg) 50% 0 fixed;
     background-color: #f79cc1;
-    background-size: auto;
+    background-size: cover;
     color: white;
-    height: 120%;
+    height: 100%;
+    width: 100%;
     padding: 0;
 }
 
     #hipster .bg {
         background: url(../imagenes/5.png) 50% 83% no-repeat fixed;
-        height: 120%;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -310,15 +312,16 @@ img {
 #fond4 {
     background: url(../imagenes/b6.jpg) 50% 0 fixed;
     background-color: #b1deed;
-    background-size: auto;
+    background-size: cover;
     color: white;
-    height: 120%;
+    height: 100%;
+    width: 100%;
     padding: 0;
 }
 
     #fond4 .bg {
         background: url(../imagenes/6.png) 50% 85% no-repeat fixed;
-        height: 120%;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -328,15 +331,16 @@ img {
 #fond5 {
     background: url(../imagenes/b7.jpg) 50% 0 fixed;
     background-color: #b1deed;
-    background-size: auto;
+    background-size: cover;
     color: white;
-    height: 120%;
+    height: 100%;
+    width: 100%;
     padding: 0;
 }
 
     #fond5 .bg {
         background: url(../imagenes/7.png) 50% 85% no-repeat fixed;
-        height: 120%;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -346,15 +350,16 @@ img {
 #fond6 {
     background: url(../imagenes/b8.jpg) 50% 0 fixed;
     background-color: #b1deed;
-    background-size: auto;
+    background-size: cover;
     color: white;
-    height: 120%;
+    height: 100%;
+    width: 100%;
     padding: 0;
 }
 
     #fond6 .bg {
         background: url(../imagenes/8.png) 50% 82% no-repeat fixed;
-        height: 120%;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -364,15 +369,16 @@ img {
 #fond7 {
     background: url(../imagenes/b9.jpg) 50% 0 fixed;
     background-color: #b1deed;
-    background-size: auto;
+    background-size: cover;
     color: white;
-    height: 120%;
+    height: 100%;
+    width: 100%;
     padding: 0;
 }
 
     #fond7 .bg {
         background: url(../imagenes/9.png) 50% 84% no-repeat fixed;
-        height: 120%;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -382,15 +388,16 @@ img {
 #fond8 {
     background: url(../imagenes/b10.jpg) 50% 0 fixed;
     background-color: #b1deed;
-    background-size: auto;
+    background-size: cover;
     color: white;
-    height: 120%;
+    height: 100%;
+    width: 100%;
     padding: 0;
 }
 
     #fond8 .bg {
         background: url(../imagenes/10.png) 50% 86% no-repeat fixed;
-        height: 120%;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -400,15 +407,16 @@ img {
 #fond9 {
     background: url(../imagenes/b11.jpg) 50% 0 fixed;
     background-color: #c6deff;
-    background-size: auto;
+    background-size: cover;
     color: white;
-    height: 120%;
+    height: 100%;
+    width: 100%;
     padding: 0;
 }
 
     #fond9 .bg {
         background: url(../imagenes/11.png) 50% 82% no-repeat fixed;
-        height: 120%;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -418,15 +426,16 @@ img {
 #fond10 {
     background: url(../imagenes/b12.jpg) 50% 0 fixed;
     background-color: #91f9d3;
-    background-size: auto;
+    background-size: cover;
     color: white;
-    height: 120%;
+    height: 100%;
+    width: 100%;
     padding: 0;
 }
 
     #fond10 .bg {
         background: url(../imagenes/12.png) 50% 83% no-repeat fixed;
-        height: 120%;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -436,15 +445,16 @@ img {
 #fond11 {
     background: url(../imagenes/b13.jpg) 50% 0 fixed;
     background-color: #f8c075;
-    background-size: auto;
+    background-size: cover;
     color: white;
-    height: 120%;
+    height: 100%;
+    width: 100%;
     padding: 0;
 }
 
     #fond11 .bg {
         background: url(../imagenes/13.png) 50% 80% no-repeat fixed;
-        height: 120%;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -454,15 +464,16 @@ img {
 #fond12 {
     background: url(../imagenes/b14.jpg) 50% 0 fixed;
     background-color: #ffd4ab;
-    background-size: auto;
+    background-size: cover;
     color: white;
-    height: 120%;
+    height: 100%;
+    width: 100%;
     padding: 0;
 }
 
     #fond12 .bg {
         background: url(../imagenes/14.png) 50% 80.5% no-repeat fixed;
-        height: 120%;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -472,15 +483,16 @@ img {
 #fond13 {
     background: url(../imagenes/b15.jpg) 50% 0 fixed;
     background-color: #b2fad7;
-    background-size: auto;
+    background-size: cover;
     color: white;
-    height: 120%;
+    height: 100%;
+    width: 100%;
     padding: 0;
 }
 
     #fond13 .bg {
         background: url(../imagenes/14.png) 50% 82% no-repeat fixed;
-        height: 120%;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -490,15 +502,16 @@ img {
 #fond14 {
     background: url(../imagenes/b16.jpg) 50% 0 fixed;
     background-color: #dbdbdb;
-    background-size: auto;
+    background-size: cover;
     color: white;
-    height: 120%;
+    height: 100%;
+    width: 100%;
     padding: 0;
 }
 
     #fond14 .bg {
         background: url(../images/velo14.png) 50% 83.5% no-repeat fixed;
-        height: 120%;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -510,13 +523,13 @@ img {
     background-color: #fddcae;
     background-size: 1071px;
     color: white;
-    height: 120%;
+    height: 100%;
     padding: 0;
 }
 
     #fond15 .bg {
         background: url(../images/velo15.png) 50% 83% no-repeat fixed;
-        height: 120%;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -528,13 +541,13 @@ img {
     background-color: #fb9d79;
     background-size: 1071px;
     color: white;
-    height: 120%;
+    height: 100%;
     padding: 0;
 }
 
     #fond16 .bg {
         background: url(../images/velo16.png) 50% 82.5% no-repeat fixed;
-        height: 120%;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -546,13 +559,13 @@ img {
     background-color: #f6978f;
     background-size: 1071px;
     color: white;
-    height: 120%;
+    height: 100%;
     padding: 0;
 }
 
     #fond17 .bg {
         background: url(../images/velo17.png) 50% 79.5% no-repeat fixed;
-        height: 120%;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -564,7 +577,7 @@ img {
 	background-color:#ffe79a;
 	background-size:auto;
 	color: white;
-	height: 120%;
+	height: 100%;
 	width:100%;
 	margin: 0 auto;
 	padding-top:0;
@@ -573,23 +586,24 @@ img {
 	z-index:2;*/
     background: url(../imagenes/b2.jpg) 50% 0 no-repeat fixed;
     background-color: #f6978f;
-    background-size: 1071px;
+    background-size: cover;
     color: white;
-    height: 120%;
+    height: 100%;
+    width: 100%;
     padding: 0;
 }
 
     #fond19 .bg {
         /*background: url(../imagenes/2.png) no-repeat;
-	height: 120%;
+	height: 100%;
 	padding: 0;
 	position: absolute;
 	width:inherit;
 	z-index: 10;
 	background-size: contain;
 	top: 50px;*/
-        background: url(../imagenes/2.png)) 50% 79.5% no-repeat fixed;
-        height: 120%;
+        background: url(../imagenes/2.png)50% 79.5% no-repeat fixed;
+        height: 100%;
         padding: 0;
         position: absolute;
         width: inherit;
@@ -625,19 +639,19 @@ img {
 
 
 
-.story {
-    margin: 0 auto;
-    min-width: 980px;
-    /*overflow: auto;*/
-    width: 1280px;
-    text-align: center;
+/*.story{
+	margin: 0 auto;
+	min-width: 980px;
+	overflow: auto;
+	width: 1280px;
+	text-align:center;
 }
 
-    .story .float-left, .story .float-right {
-        padding: 100px 0 0 0;
-        position: relative;
-        width: 350px;
-    }
+.story .float-left, .story .float-right{
+	padding: 100px 0 0 0;
+	position: relative;
+	width: 350px;	
+}*/
 
 footer {
     position: relative;
@@ -693,1614 +707,26 @@ footer p {
     font-weight: 100;
 }
 
-@media (min-height:649px) {
-
-    #fond19 {
-        background: url(../imagenes/b2.jpg);
-        background-color: #ffe79a;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 0;
-        overflow: hidden;
-        z-index: 2;
-    }
-
-        #fond19 .bg {
-            background: url(../imagenes/2.png) no-repeat;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-            background-size: contain;
-            top: 50px;
-        }
-}
-
-@media (min-height:679px) {
-
-    #fond19 {
-        background: url(../imagenes/b2.jpg);
-        background-color: #ffe79a;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 0;
-        overflow: hidden;
-        z-index: 2;
-    }
-
-        #fond19 .bg {
-            background: url(../imagenes/2.png) no-repeat;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-            background-size: contain;
-            top: 50px;
-        }
-
-
-    #traveler {
-        background: url(../imagenes/b3.jpg);
-        background-color: #8f1a71;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 0;
-        overflow: hidden;
-    }
-
-        #traveler .bg {
-            background: url(../images/traveler.png) no-repeat;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-            background-size: contain;
-            top: 50px;
-        }
-
-    #third {
-        background: url(../imagenes/b4.jpg) 50% 0 fixed;
-        background-color: #b1deed;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #third .bg {
-            background: url(../imagenes/4.png) 50% 78.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #hipster {
-        background: url(../imagenes/b5.jpg) 50% 0 fixed;
-        background-color: #f79cc1;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #hipster .bg {
-            background: url(../imagenes/5.png) 50% 83% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond4 {
-        background: url(../imagenes/b6.jpg) 50% 0 fixed;
-        background-color: #abe7f4;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond4 .bg {
-            background: url(../imagenes/6.png) 50% 85% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond5 {
-        background: url(../imagenes/b7.jpg) 50% 0 fixed;
-        background-color: #f8d5b8;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond5 .bg {
-            background: url(../imagenes/7.png) 50% 85% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond6 {
-        background: url(../imagenes/b8.jpg) 50% 0 fixed;
-        background-color: #a0e3ff;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond6 .bg {
-            background: url(../imagenes/8.png) 50% 82% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond7 {
-        background: url(../imagenes/b9.jpg) 50% 0 fixed;
-        background-color: #f7ca7d;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond7 .bg {
-            background: url(../imagenes/9.png) 50% 84% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond8 {
-        background: url(../imagenes/b10.jpg) 50% 0 fixed;
-        background-color: #fbdff8;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond8 .bg {
-            background: url(../imagenes/10.png) 50% 86% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond9 {
-        background: url(../imagenes/b11.jpg) 50% 0 fixed;
-        background-color: #c6deff;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond9 .bg {
-            background: url(../imagenes/11.png) 50% 82% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond10 {
-        background: url(../imagenes/b12.jpg) 50% 0 fixed;
-        background-color: #91f9d3;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond10 .bg {
-            background: url(../imagenes/12.png) 50% 83% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond11 {
-        background: url(../imagenes/b13.jpg) 50% 0 fixed;
-        background-color: #f8c075;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond11 .bg {
-            background: url(../imagenes/13.png) 50% 80% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond12 {
-        background: url(../imagenes/b14.jpg) 50% 0 fixed;
-        background-color: #ffd4ab;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond12 .bg {
-            background: url(../imagenes/14.png) 50% 80.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond13 {
-        background: url(../imagenes/b15.jpg) 50% 0 fixed;
-        background-color: #b2fad7;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond13 .bg {
-            background: url(../imagenes/14.png) 50% 82% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond14 {
-        background: url(../imagenes/b16.jpg) 50% 0 fixed;
-        background-color: #dbdbdb;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond14 .bg {
-            background: url(../images/velo14.png) 50% 83.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond15 {
-        background: url(../images/fond15.jpg) 50% 0 no-repeat fixed;
-        background-color: #fddcae;
-        background-size: 1200px;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond15 .bg {
-            background: url(../images/velo15.png) 50% 83% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond16 {
-        background: url(../images/fond16.jpg) 50% 0 no-repeat fixed;
-        background-color: #fb9d79;
-        background-size: 1200px;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond16 .bg {
-            background: url(../images/velo16.png) 50% 82.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond17 {
-        background: url(../images/fond17.jpg) 50% 0 no-repeat fixed;
-        background-color: #f6978f;
-        background-size: 1200px;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond17 .bg {
-            background: url(../images/velo17.png) 50% 79.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-}
-
-@media (min-height:720px) {
-
-    #fond19 {
-        background: url(../imagenes/b2.jpg);
-        background-color: #ffe79a;
-        background-size: auto;
-        z-index: 2;
-        color: white;
-        height: 120%;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 0;
-        overflow: hidden;
-    }
-
-        #fond19 .bg {
-            background: url(../imagenes/2.png) no-repeat;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-            background-size: contain;
-            top: 50px;
-        }
-}
-
-@media (min-height:750px) {
-
-    #fond19 {
-        background: url(../imagenes/b2.jpg);
-        background-color: #ffe79a;
-        background-size: auto;
-        z-index: 2;
-        color: white;
-        height: 120%;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 0;
-        overflow: hidden;
-    }
-
-        #fond19 .bg {
-            background: url(../imagenes/2.png) no-repeat;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-            background-size: contain;
-            top: 50px;
-        }
-}
-
-@media (min-height:780px) {
-
-    #fond19 {
-        background: url(../imagenes/b2.jpg);
-        background-color: #ffe79a;
-        background-size: auto;
-        z-index: 2;
-        color: white;
-        height: 120%;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 0;
-        overflow: hidden;
-    }
-
-        #fond19 .bg {
-            background: url(../imagenes/2.png) no-repeat;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-            background-size: contain;
-            top: 50px;
-        }
-}
-
-
-@media (min-height:800px) {
-
-    #fond19 {
-        background: url(../imagenes/b2.jpg);
-        background-color: #ffe79a;
-        background-size: auto;
-        z-index: 2;
-        color: white;
-        height: 120%;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 0;
-        overflow: hidden;
-    }
-
-        #fond19 .bg {
-            background: url(../imagenes/2.png) no-repeat;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-            background-size: contain;
-            top: 50px;
-        }
-
-
-    #traveler {
-        background: url(../imagenes/b3.jpg);
-        background-color: #8f1a71;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 0;
-        overflow: hidden;
-    }
-
-        #traveler .bg {
-            background: url(../images/traveler.png) no-repeat;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-            background-size: contain;
-            top: 50px;
-        }
-
-    #third {
-        background: url(../imagenes/b4.jpg) 50% 0 fixed;
-        background-color: #b1deed;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #third .bg {
-            background: url(../imagenes/4.png) 50% 78.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #hipster {
-        background: url(../imagenes/b5.jpg) 50% 0 fixed;
-        background-color: #f79cc1;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #hipster .bg {
-            background: url(../imagenes/5.png) 50% 83% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond4 {
-        background: url(../imagenes/b6.jpg) 50% 0 fixed;
-        background-color: #abe7f4;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond4 .bg {
-            background: url(../imagenes/6.png) 50% 85% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond5 {
-        background: url(../imagenes/b7.jpg) 50% 0 fixed;
-        background-color: #f8d5b8;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond5 .bg {
-            background: url(../imagenes/7.png) 50% 85% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond6 {
-        background: url(../imagenes/b8.jpg) 50% 0 fixed;
-        background-color: #a0e3ff;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond6 .bg {
-            background: url(../imagenes/8.png) 50% 82% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond7 {
-        background: url(../imagenes/b9.jpg) 50% 0 fixed;
-        background-color: #f7ca7d;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond7 .bg {
-            background: url(../imagenes/9.png) 50% 84% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond8 {
-        background: url(../imagenes/b10.jpg) 50% 0 fixed;
-        background-color: #fbdff8;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond8 .bg {
-            background: url(../imagenes/10.png) 50% 86% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond9 {
-        background: url(../imagenes/b11.jpg) 50% 0 fixed;
-        background-color: #c6deff;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond9 .bg {
-            background: url(../imagenes/11.png) 50% 82% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond10 {
-        background: url(../imagenes/b12.jpg) 50% 0 fixed;
-        background-color: #91f9d3;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond10 .bg {
-            background: url(../imagenes/12.png) 50% 83% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond11 {
-        background: url(../imagenes/b13.jpg) 50% 0 fixed;
-        background-color: #f8c075;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond11 .bg {
-            background: url(../imagenes/13.png) 50% 80% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond12 {
-        background: url(../imagenes/b14.jpg) 50% 0 fixed;
-        background-color: #ffd4ab;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond12 .bg {
-            background: url(../imagenes/14.png) 50% 80.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond13 {
-        background: url(../imagenes/b15.jpg) 50% 0 fixed;
-        background-color: #b2fad7;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond13 .bg {
-            background: url(../imagenes/14.png) 50% 82% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond14 {
-        background: url(../imagenes/b16.jpg) 50% 0 fixed;
-        background-color: #dbdbdb;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond14 .bg {
-            background: url(../images/velo14.png) 50% 83.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond15 {
-        background: url(../images/fond15.jpg) 50% 0 no-repeat fixed;
-        background-color: #fddcae;
-        background-size: 1200px;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond15 .bg {
-            background: url(../images/velo15.png) 50% 83% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond16 {
-        background: url(../images/fond16.jpg) 50% 0 no-repeat fixed;
-        background-color: #fb9d79;
-        background-size: 1200px;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond16 .bg {
-            background: url(../images/velo16.png) 50% 82.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond17 {
-        background: url(../images/fond17.jpg) 50% 0 no-repeat fixed;
-        background-color: #f6978f;
-        background-size: 1200px;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond17 .bg {
-            background: url(../images/velo17.png) 50% 79.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-}
-
-@media (min-height:840px) {
-
-    #fond19 {
-        background: url(../imagenes/b2.jpg);
-        background-color: #ffe79a;
-        background-size: auto;
-        z-index: 2;
-        color: white;
-        height: 120%;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 0;
-        overflow: hidden;
-    }
-
-        #fond19 .bg {
-            background: url(../imagenes/2.png) no-repeat;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-            background-size: contain;
-            top: 50px;
-        }
-}
-
-@media (min-height:860px) {
-
-    #fond19 {
-        background: url(../imagenes/b2.jpg);
-        background-color: #ffe79a;
-        background-size: auto;
-        z-index: 2;
-        color: white;
-        height: 120%;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 0;
-        overflow: hidden;
-    }
-
-        #fond19 .bg {
-            background: url(../imagenes/2.png) no-repeat;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-            background-size: contain;
-            top: 50px;
-        }
-}
-
-@media (min-height:900px) {
-
-    #fond19 {
-        background: url(../imagenes/b2.jpg);
-        background-color: #ffe79a;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 0;
-        overflow: hidden;
-        z-index: 2;
-    }
-
-        #fond19 .bg {
-            background: url(../imagenes/2.png) no-repeat;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-            background-size: contain;
-            top: 50px;
-        }
-
-    #traveler {
-        background: url(../imagenes/b3.jpg);
-        background-color: #8f1a71;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 0;
-        overflow: hidden;
-    }
-
-        #traveler .bg {
-            background: url(../images/traveler.png) no-repeat;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-            background-size: contain;
-            top: 50px;
-        }
-
-    #third {
-        background: url(../imagenes/b4.jpg) 50% 0 fixed;
-        background-color: #b1deed;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #third .bg {
-            background: url(../imagenes/4.png) 50% 78.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #hipster {
-        background: url(../imagenes/b5.jpg) 50% 0 fixed;
-        background-color: #f79cc1;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #hipster .bg {
-            background: url(../imagenes/5.png) 50% 83% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond4 {
-        background: url(../imagenes/b6.jpg) 50% 0 fixed;
-        background-color: #abe7f4;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond4 .bg {
-            background: url(../imagenes/6.png) 50% 85% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond5 {
-        background: url(../imagenes/b7.jpg) 50% 0 fixed;
-        background-color: #f8d5b8;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond5 .bg {
-            background: url(../imagenes/7.png) 50% 85% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond6 {
-        background: url(../imagenes/b8.jpg) 50% 0 fixed;
-        background-color: #a0e3ff;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond6 .bg {
-            background: url(../imagenes/8.png) 50% 82% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond7 {
-        background: url(../imagenes/b9.jpg) 50% 0 fixed;
-        background-color: #f7ca7d;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond7 .bg {
-            background: url(../imagenes/9.png) 50% 84% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond8 {
-        background: url(../imagenes/b10.jpg) 50% 0 fixed;
-        background-color: #fbdff8;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond8 .bg {
-            background: url(../imagenes/10.png) 50% 86% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond9 {
-        background: url(../imagenes/b11.jpg) 50% 0 fixed;
-        background-color: #c6deff;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond9 .bg {
-            background: url(../imagenes/11.png) 50% 82% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond10 {
-        background: url(../imagenes/b12.jpg) 50% 0 fixed;
-        background-color: #91f9d3;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond10 .bg {
-            background: url(../imagenes/12.png) 50% 83% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond11 {
-        background: url(../imagenes/b13.jpg) 50% 0 fixed;
-        background-color: #f8c075;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond11 .bg {
-            background: url(../imagenes/13.png) 50% 80% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond12 {
-        background: url(../imagenes/b14.jpg) 50% 0 fixed;
-        background-color: #ffd4ab;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond12 .bg {
-            background: url(../imagenes/14.png) 50% 80.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond13 {
-        background: url(../imagenes/b15.jpg) 50% 0 fixed;
-        background-color: #b2fad7;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond13 .bg {
-            background: url(../imagenes/14.png) 50% 82% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond14 {
-        background: url(../imagenes/b16.jpg) 50% 0 fixed;
-        background-color: #dbdbdb;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond14 .bg {
-            background: url(../images/velo14.png) 50% 83.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond15 {
-        background: url(../images/fond15.jpg) 50% 0 no-repeat fixed;
-        background-color: #fddcae;
-        background-size: 1200px;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond15 .bg {
-            background: url(../images/velo15.png) 50% 83% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond16 {
-        background: url(../images/fond16.jpg) 50% 0 no-repeat fixed;
-        background-color: #fb9d79;
-        background-size: 1200px;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond16 .bg {
-            background: url(../images/velo16.png) 50% 82.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond17 {
-        background: url(../images/fond17.jpg) 50% 0 no-repeat fixed;
-        background-color: #f6978f;
-        background-size: 1200px;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond17 .bg {
-            background: url(../images/velo17.png) 50% 79.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-}
-
-@media (min-height:940px) {
-
-    #fond19 {
-        background: url(../imagenes/b2.jpg);
-        background-color: #ffe79a;
-        background-size: auto;
-        z-index: 2;
-        color: white;
-        height: 120%;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 0;
-        overflow: hidden;
-    }
-
-        #fond19 .bg {
-            background: url(../imagenes/2.png) no-repeat;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-            background-size: contain;
-            top: 50px;
-        }
-}
-
-@media (min-height:980px) {
-
-    #fond19 {
-        background: url(../imagenes/b2.jpg);
-        background-color: #ffe79a;
-        background-size: auto;
-        z-index: 2;
-        color: white;
-        height: 120%;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 0;
-        overflow: hidden;
-    }
-
-        #fond19 .bg {
-            background: url(../imagenes/2.png) no-repeat;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-            background-size: contain;
-            top: 50px;
-        }
-}
-
-@media (min-height:1020px) {
-
-    #fond19 {
-        background: url(../imagenes/b2.jpg);
-        background-color: #ffe79a;
-        background-size: auto;
-        z-index: 2;
-        color: white;
-        height: 120%;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 0;
-        overflow: hidden;
-    }
-
-        #fond19 .bg {
-            background: url(../imagenes/2.png) no-repeat;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-            background-size: contain;
-            top: 50px;
-        }
-}
-
-@media (min-height:1070px) {
-
-    #fond19 {
-        background: url(../imagenes/b2.jpg);
-        background-color: #ffe79a;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 0;
-        overflow: hidden;
-        z-index: 1;
-    }
-
-        #fond19 .bg {
-            background: url(../imagenes/2.png) no-repeat;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-            background-size: contain;
-            top: 50px;
-        }
-
-    #traveler {
-        background: url(../imagenes/b3.jpg);
-        background-color: #8f1a71;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 0;
-        overflow: hidden;
-    }
-
-        #traveler .bg {
-            background: url(../images/traveler.png) no-repeat;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-            background-size: contain;
-            top: 50px;
-        }
-
-    #third {
-        background: url(../imagenes/b4.jpg) 50% 0 fixed;
-        background-color: #b1deed;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #third .bg {
-            background: url(../imagenes/4.png) 50% 78.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #hipster {
-        background: url(../imagenes/b5.jpg) 50% 0 fixed;
-        background-color: #f79cc1;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #hipster .bg {
-            background: url(../imagenes/5.png) 50% 83% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond4 {
-        background: url(../imagenes/b6.jpg) 50% 0 fixed;
-        background-color: #abe7f4;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond4 .bg {
-            background: url(../imagenes/6.png) 50% 85% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond5 {
-        background: url(../imagenes/b7.jpg) 50% 0 fixed;
-        background-color: #f8d5b8;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond5 .bg {
-            background: url(../imagenes/7.png) 50% 85% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond6 {
-        background: url(../imagenes/b8.jpg) 50% 0 fixed;
-        background-color: #a0e3ff;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond6 .bg {
-            background: url(../imagenes/8.png) 50% 82% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond7 {
-        background: url(../imagenes/b9.jpg) 50% 0 fixed;
-        background-color: #f7ca7d;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond7 .bg {
-            background: url(../imagenes/9.png) 50% 84% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond8 {
-        background: url(../imagenes/b10.jpg) 50% 0 fixed;
-        background-color: #fbdff8;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond8 .bg {
-            background: url(../imagenes/10.png) 50% 86% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond9 {
-        background: url(../imagenes/b11.jpg) 50% 0 fixed;
-        background-color: #c6deff;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond9 .bg {
-            background: url(../imagenes/11.png) 50% 82% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond10 {
-        background: url(../imagenes/b12.jpg) 50% 0 fixed;
-        background-color: #91f9d3;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond10 .bg {
-            background: url(../imagenes/12.png) 50% 83% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond11 {
-        background: url(../imagenes/b13.jpg) 50% 0 fixed;
-        background-color: #f8c075;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond11 .bg {
-            background: url(../imagenes/13.png) 50% 80% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond12 {
-        background: url(../imagenes/b14.jpg) 50% 0 fixed;
-        background-color: #ffd4ab;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond12 .bg {
-            background: url(../imagenes/14.png) 50% 80.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond13 {
-        background: url(../imagenes/b15.jpg) 50% 0 no-repeat fixed;
-        background-color: #b2fad7;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond13 .bg {
-            background: url(../imagenes/14.png) 50% 82% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond14 {
-        background: url(../imagenes/b16.jpg) 50% 0 fixed;
-        background-color: #dbdbdb;
-        background-size: auto;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond14 .bg {
-            background: url(../images/velo14.png) 50% 83.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond15 {
-        background: url(../images/fond15.jpg) 50% 0 no-repeat fixed;
-        background-color: #fddcae;
-        background-size: 1300px;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond15 .bg {
-            background: url(../images/velo15.png) 50% 83% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond16 {
-        background: url(../images/fond16.jpg) 50% 0 no-repeat fixed;
-        background-color: #fb9d79;
-        background-size: 1300px;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond16 .bg {
-            background: url(../images/velo16.png) 50% 82.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-
-    #fond17 {
-        background: url(../images/fond17.jpg) 50% 0 no-repeat fixed;
-        background-color: #f6978f;
-        background-size: 1300px;
-        color: white;
-        height: 120%;
-        padding: 0;
-    }
-
-        #fond17 .bg {
-            background: url(../images/velo17.png) 50% 79.5% no-repeat fixed;
-            height: 120%;
-            padding: 0;
-            position: absolute;
-            width: inherit;
-            z-index: 10;
-        }
-}
-
 .tierra {
     display: inline-block;
     width: 800px;
     margin-top: 50px;
 }
 
+.content {
+    width: 100%;
+    display: table;
+}
+
+.rowe {
+    display: table-row;
+}
+
 .meahogo {
-    display: inline-block;
-    width: 350px;
-    height: 100px;
+    display: inline-grid;
+    text-align: center;
+    text-align: -webkit-center;
+    width: 33.33%;
 }
 
 .contenedor {
@@ -2322,7 +748,7 @@ footer p {
     width: 446px;
     height: 341px;
     background: url(../imagenes/8.png) 50% 79.5% no-repeat fixed;
-    height: 120%;
+    height: 100%;
     padding: 0;
     position: absolute;
     width: inherit;
@@ -2335,7 +761,7 @@ footer p {
     width: 446px;
     height: 341px;
     background: url(../imagenes/9.png) 50% 79.5% no-repeat fixed;
-    height: 120%;
+    height: 100%;
     padding: 0;
     position: absolute;
     width: inherit;
@@ -2348,7 +774,7 @@ footer p {
     width: 446px;
     height: 341px;
     background: url(../imagenes/10.png) 50% 79.5% no-repeat fixed;
-    height: 120%;
+    height: 100%;
     padding: 0;
     position: absolute;
     width: inherit;
@@ -2374,7 +800,7 @@ footer p {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    margin-top: 30px;
+    margin: 30px;
 }
 
     .myGallery img {
@@ -2512,7 +938,7 @@ body {
     /*right:40px;*/
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/ajolote2.png);
-    background-size: fixed;
+ /*   background-size: fixed;*/
     background-position: center;
     color: #FFF;
     border-radius: 50px;
@@ -2546,7 +972,7 @@ span.float:hover + div.label-container {
 .inicio {
     background: url(../imagenes/1.png) 0 no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: contain;
     position: relative;
     height: 100%;
     width: 100%;
@@ -2558,7 +984,7 @@ span.float:hover + div.label-container {
 .inicio2 {
     background: url(../imagenes/2.png) 0 no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: contain;
     position: relative;
     height: 100%;
     width: 100%;
@@ -2610,22 +1036,19 @@ a.float2:hover + div.label-container2 {
     position: absolute;
     width: 149px;
     height: 122px;
-    bottom: 720px;
-    /*right:40px;*/
-    left: 65px;
+    bottom: 70%;
+    left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/ajolote2.png);
-    background-size: fixed;
     background-position: center;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    /*box-shadow: 2px 2px 3px #999;*/
 }
 
 .fin {
     background: url(../imagenes/FIN.png) 0 no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: contain;
     position: relative;
     height: 100%;
     width: 100%;
@@ -2679,23 +1102,20 @@ a.float3:hover + div.label-container3 {
     position: absolute;
     width: 149px;
     height: 122px;
-    bottom: 740px;
-    /*right:40px;*/
+    bottom: 70%;
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/ajolote2.png);
-    background-size: fixed;
     background-position: center;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    /*box-shadow: 2px 2px 3px #999;*/
 }
 
 /* 4 */
 .inicio4 {
     background: url(../imagenes/www.gif) 0 no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: contain;
     position: relative;
     height: 100%;
     width: 100%;
@@ -2747,16 +1167,13 @@ a.float4:hover + div.label-container4 {
     position: absolute;
     width: 149px;
     height: 122px;
-    bottom: 730px;
-    /*right:40px;*/
-    left: 70px;
+    bottom: 70%;
+    left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/ajolote2.png);
-    background-size: fixed;
     background-position: center;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    /*box-shadow: 2px 2px 3px #999;*/
 }
 
 /* 5 */
@@ -2764,7 +1181,7 @@ a.float4:hover + div.label-container4 {
 .inicio5 {
     background: url(../imagenes/5.png) 0 no-repeat;
     background-position: left;
-    background-size: auto;
+    background-size: contain;
     position: relative;
     height: 100%;
     width: 100%;
@@ -2816,16 +1233,13 @@ a.float5:hover + div.label-container5 {
     position: absolute;
     width: 149px;
     height: 122px;
-    bottom: 705px;
+    bottom: 80%;
     right: 125px;
-    /*left:40px;*/
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/ajolote2.png);
-    background-size: fixed;
     background-position: center;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    /*box-shadow: 2px 2px 3px #999;*/
 }
 
 /* 6 */
@@ -2835,7 +1249,7 @@ a.float5:hover + div.label-container5 {
 .inicio7 {
     background: url(../imagenes/7.png) 0 no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: contain;
     position: relative;
     height: 100%;
     width: 100%;
@@ -2887,16 +1301,13 @@ a.float7:hover + div.label-container7 {
     position: absolute;
     width: 131px;
     height: 163px;
-    bottom: 600px;
-    /*right:40px;*/
+    bottom: 70%;
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
-    background-size: fixed;
     background-position: center;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    /*box-shadow: 2px 2px 3px #999;*/
 }
 
 /* 8 */
@@ -2904,7 +1315,7 @@ a.float7:hover + div.label-container7 {
 .inicio8 {
     background: url(../imagenes/8.png) 0 no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: contain;
     position: relative;
     height: 100%;
     width: 100%;
@@ -2956,16 +1367,13 @@ a.float8:hover + div.label-container8 {
     position: absolute;
     width: 131px;
     height: 163px;
-    bottom: 600px;
-    /*right:40px;*/
+    bottom: 80%;
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
-    background-size: fixed;
     background-position: center;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    /*box-shadow: 2px 2px 3px #999;*/
 }
 
 /* 9 */
@@ -2973,7 +1381,7 @@ a.float8:hover + div.label-container8 {
 .inicio9 {
     background: url(../imagenes/9.png) 0 no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: contain;
     position: relative;
     height: 100%;
     width: 100%;
@@ -3025,8 +1433,7 @@ a.float9:hover + div.label-container9 {
     position: absolute;
     width: 131px;
     height: 163px;
-    bottom: 600px;
-    /*right:40px;*/
+    bottom: 80%;
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
     background-size: fixed;
@@ -3034,7 +1441,6 @@ a.float9:hover + div.label-container9 {
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    /*box-shadow: 2px 2px 3px #999;*/
 }
 
 /* 10 */
@@ -3043,7 +1449,7 @@ a.float9:hover + div.label-container9 {
 .inicio10 {
     background: url(../imagenes/10.png) 0 no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: contain;
     position: relative;
     height: 100%;
     width: 100%;
@@ -3095,16 +1501,13 @@ a.float10:hover + div.label-container10 {
     position: absolute;
     width: 131px;
     height: 163px;
-    bottom: 600px;
-    /*right:40px;*/
+    bottom: 80%;
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
-    background-size: fixed;
     background-position: center;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    /*box-shadow: 2px 2px 3px #999;*/
 }
 
 /* 11 */
@@ -3112,7 +1515,7 @@ a.float10:hover + div.label-container10 {
 .inicio11 {
     background: url(../imagenes/11.png) 0 no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: contain;
     position: relative;
     height: 100%;
     width: 100%;
@@ -3164,16 +1567,13 @@ a.float11:hover + div.label-container11 {
     position: absolute;
     width: 131px;
     height: 163px;
-    bottom: 600px;
-    /*right:40px;*/
+    bottom: 80%;
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
-    background-size: fixed;
     background-position: center;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    /*box-shadow: 2px 2px 3px #999;*/
 }
 
 /* 12 */
@@ -3181,7 +1581,7 @@ a.float11:hover + div.label-container11 {
 .inicio12 {
     background: url(../imagenes/12.png) 0 no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: contain;
     position: relative;
     height: 100%;
     width: 100%;
@@ -3233,8 +1633,7 @@ a.float12:hover + div.label-container12 {
     position: absolute;
     width: 131px;
     height: 163px;
-    bottom: 600px;
-    /*right:40px;*/
+    bottom: 80%;
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
     background-size: fixed;
@@ -3242,7 +1641,6 @@ a.float12:hover + div.label-container12 {
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    /*box-shadow: 2px 2px 3px #999;*/
 }
 
 /* 13 */
@@ -3250,7 +1648,7 @@ a.float12:hover + div.label-container12 {
 .inicio13 {
     background: url(../imagenes/13.png) 0 no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: contain;
     position: relative;
     height: 100%;
     width: 100%;
@@ -3302,16 +1700,13 @@ a.float13:hover + div.label-container13 {
     position: absolute;
     width: 131px;
     height: 163px;
-    bottom: 600px;
-    /*right:40px;*/
+    bottom: 80%;
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
-    background-size: fixed;
     background-position: center;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    /*box-shadow: 2px 2px 3px #999;*/
 }
 
 /* 14 */
@@ -3319,7 +1714,7 @@ a.float13:hover + div.label-container13 {
 .inicio14 {
     background: url(../imagenes/14.png) 0 no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: contain;
     position: relative;
     height: 100%;
     width: 100%;
@@ -3371,16 +1766,13 @@ a.float14:hover + div.label-container14 {
     position: absolute;
     width: 131px;
     height: 163px;
-    bottom: 600px;
-    /*right:40px;*/
+    bottom: 80%;
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
-    background-size: fixed;
     background-position: center;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    /*box-shadow: 2px 2px 3px #999;*/
 }
 
 
@@ -3391,11 +1783,10 @@ a.float14:hover + div.label-container14 {
     display: flex;
     flex-wrap: wrap;
     background-color: white;
-    width: 710px;
+    width: 85%;
     height: auto;
-    margin-top: 282px;
+    margin-top: 20%;
     text-align: center;
-    font-size: 16px;
 }
 
 .tabs2 {
@@ -3408,9 +1799,7 @@ a.float14:hover + div.label-container14 {
     text-align: center;
 }
 
-    .tabs2 label {
-        font-size: 10.5px !important;
-    }
+   
 
 .tabs > section {
     /* Step 3: Move content <section> to the end, after the tab labels */
@@ -3559,14 +1948,12 @@ a.float14:hover + div.label-container14 {
 
 .ciel {
     display: inline-block;
-    width: 650px;
-    /* margin-top: 50px; */
+    width: 100%;
 }
 
 .ciel2 {
     display: inline-block;
-    width: 750px;
-    /* margin-top: 50px; */
+    width: 100%;
 }
 
 
@@ -3706,11 +2093,11 @@ input#t10 {
 }
 
 .inicioExt {
-    background: url(../imagenes/hacertu.png) 0 no-repeat;
+    background: url(imagenes/hacertu.png) 0 no-repeat;
     background-position: right;
-    background-size: auto;
+    background-size: cover;
     position: relative;
-    height: 100%;
+    height: 72%;
     width: 100%;
     color: white;
     margin: 0 auto;
@@ -3719,16 +2106,13 @@ input#t10 {
 
 .tierra2 {
     display: inline-block;
-    width: 800px;
+    width: 60%;
     margin-top: 10px;
-    margin-left: 230px;
 }
 
 .botontab {
     display: inline-block;
     width: auto;
-    /*margin-top: 50px;
-		margin-left: 230px;*/
 }
 
 .play {
@@ -4129,3 +2513,157 @@ element.style {
 .validation-summary-errors {
     font-size: 10px;
 }
+
+.meahogo .trigger {
+    width: 63%;
+    height: auto;
+}
+
+.contImages {
+    max-width: 92%;
+}
+
+
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+
+    .trigger {
+        height: 200px;
+    }
+
+    .link {
+        height: 50px;
+    }
+
+    .tabs {
+        margin-top: 30%;
+    }
+
+    .tabs2 {
+        width: 600px;
+    }
+
+    /*.myGallery .item{
+		height: 110px;
+		width: 110px;
+	}*/
+
+    .contenedor iframe {
+        top: 25%;
+        height: 300px;
+    }
+
+    .myGallery {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        margin: 30px;
+        height: 70vh;
+    }
+
+    .myGallery .item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .myGallery img {
+        width: auto;
+        max-height: 100%;
+    }
+
+    .inicio {
+        background-size: 100% auto;
+        width: 85%;
+    }
+
+    .inicio4 {
+        background-size: 100% auto;
+        width: 76%;
+    }
+
+
+    .dudas {
+        width: 200px;
+        height: 60px;
+        float: left;
+        margin-left: 10px;
+        margin-top: 225px;
+    }
+
+    .dudas img{
+
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .trigger {
+        height: 300px;
+    }
+
+    .link {
+        height: 50px;
+    }
+
+    .tabs {
+        margin-top: 25%;
+    }
+
+    .tabs2 {
+        width: 800px;
+    }
+
+    /*.myGallery .item{
+		height: 150px;
+		width: 150px;
+	}*/
+
+    .ciel {
+        height: 300px;
+    }
+
+    .ciel2 {
+        height: 300px;
+    }
+
+
+    .contenedor iframe {
+        top: 25%;
+        height: 300px;
+    }
+
+
+
+    .inicio {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        min-width: 800px;
+        color: white;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .inicio2 {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        min-width: 800px;
+        color: white;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+  
+}
+
+
+
+
