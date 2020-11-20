@@ -584,7 +584,7 @@ img {
 	overflow: hidden;
 	position:relative;
 	z-index:2;*/
-    background: url(../imagenes/b2.jpg) 50% 0 no-repeat fixed;
+    background: url(../imagenes/b2.jpg) 50% 0 fixed;
     background-color: #f6978f;
     background-size: cover;
     color: white;
@@ -819,6 +819,7 @@ footer p {
 
         .myGallery .item img {
             vertical-align: middle;
+width: 100%;
         }
 
     .myGallery .caption {
@@ -867,7 +868,7 @@ footer p {
     width: auto;
     border-radius: 0.5rem;
     overflow-y: auto;
-    height: 55vh;
+    height: auto;
 }
 
 .close-button {
@@ -903,8 +904,8 @@ body {
 }
 
 .label-container {
-    position: fixed;
-    bottom: 100px;
+    position: absolute;
+    bottom: 10%;
     z-index: 100;
     /*right:105px;*/
     left: 225px;
@@ -934,7 +935,7 @@ body {
     position: absolute;
     width: 149px;
     height: 122px;
-    bottom: 100px;
+    bottom: 10%;
     /*right:40px;*/
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/ajolote2.png);
@@ -994,8 +995,8 @@ span.float:hover + div.label-container {
 }
 
 .label-container2 {
-    position: fixed;
-    bottom: 590px;
+    position: absolute;
+    bottom: 75%;
     /*right:105px;*/
     left: 225px;
     display: table;
@@ -1060,8 +1061,8 @@ a.float2:hover + div.label-container2 {
 /* 3 */
 
 .label-container3 {
-    position: fixed;
-    bottom: 590px;
+    position: absolute;
+    bottom: 70%;
     /*right:105px;*/
     left: 225px;
     display: table;
@@ -1125,8 +1126,8 @@ a.float3:hover + div.label-container3 {
 }
 
 .label-container4 {
-    position: fixed;
-    bottom: 590px;
+    position: absolute;
+    bottom: 70%;
     /*right:105px;*/
     left: 225px;
     z-index: 100;
@@ -1191,8 +1192,8 @@ a.float4:hover + div.label-container4 {
 }
 
 .label-container5 {
-    position: fixed;
-    bottom: 620px;
+    position: absolute;
+    bottom: 75%;
     right: 300px;
     /* left: 225px; */
     display: table;
@@ -1233,7 +1234,7 @@ a.float5:hover + div.label-container5 {
     position: absolute;
     width: 149px;
     height: 122px;
-    bottom: 80%;
+    bottom: 75%;
     right: 125px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/ajolote2.png);
     background-position: center;
@@ -1259,8 +1260,8 @@ a.float5:hover + div.label-container5 {
 }
 
 .label-container7 {
-    position: fixed;
-    bottom: 380px;
+    position: absolute;
+    bottom: 50%;
     /*right:105px;*/
     left: 200px;
     display: table;
@@ -1301,7 +1302,7 @@ a.float7:hover + div.label-container7 {
     position: absolute;
     width: 131px;
     height: 163px;
-    bottom: 70%;
+    bottom: 50%;
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
     background-position: center;
@@ -1325,8 +1326,8 @@ a.float7:hover + div.label-container7 {
 }
 
 .label-container8 {
-    position: fixed;
-    bottom: 380px;
+    position: absolute;
+    bottom: 50%;
     /*right:105px;*/
     left: 200px;
     display: table;
@@ -1367,7 +1368,7 @@ a.float8:hover + div.label-container8 {
     position: absolute;
     width: 131px;
     height: 163px;
-    bottom: 80%;
+    bottom: 50%;
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
     background-position: center;
@@ -1391,8 +1392,8 @@ a.float8:hover + div.label-container8 {
 }
 
 .label-container9 {
-    position: fixed;
-    bottom: 380px;
+    position: absolute;
+    bottom: 50%;
     /*right:105px;*/
     left: 200px;
     display: table;
@@ -1433,7 +1434,7 @@ a.float9:hover + div.label-container9 {
     position: absolute;
     width: 131px;
     height: 163px;
-    bottom: 80%;
+    bottom: 50%;
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
     background-size: fixed;
@@ -1459,8 +1460,8 @@ a.float9:hover + div.label-container9 {
 }
 
 .label-container10 {
-    position: fixed;
-    bottom: 380px;
+    position: absolute;
+    bottom: 50%;
     /*right:105px;*/
     left: 200px;
     display: table;
@@ -1501,7 +1502,7 @@ a.float10:hover + div.label-container10 {
     position: absolute;
     width: 131px;
     height: 163px;
-    bottom: 80%;
+    bottom: 50%;
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
     background-position: center;
@@ -1525,8 +1526,8 @@ a.float10:hover + div.label-container10 {
 }
 
 .label-container11 {
-    position: fixed;
-    bottom: 380px;
+    position: absolute;
+    bottom: 50%;
     /*right:105px;*/
     left: 200px;
     display: table;
@@ -1567,7 +1568,7 @@ a.float11:hover + div.label-container11 {
     position: absolute;
     width: 131px;
     height: 163px;
-    bottom: 80%;
+    bottom: 50%;
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
     background-position: center;
@@ -1591,8 +1592,8 @@ a.float11:hover + div.label-container11 {
 }
 
 .label-container12 {
-    position: fixed;
-    bottom: 380px;
+    position: absolute;
+    bottom: 50%;
     /*right:105px;*/
     left: 200px;
     display: table;
@@ -1633,7 +1634,7 @@ a.float12:hover + div.label-container12 {
     position: absolute;
     width: 131px;
     height: 163px;
-    bottom: 80%;
+    bottom: 50%;
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
     background-size: fixed;
@@ -1658,8 +1659,8 @@ a.float12:hover + div.label-container12 {
 }
 
 .label-container13 {
-    position: fixed;
-    bottom: 380px;
+    position: absolute;
+    bottom: 50%;
     /*right:105px;*/
     left: 200px;
     display: table;
@@ -1700,7 +1701,7 @@ a.float13:hover + div.label-container13 {
     position: absolute;
     width: 131px;
     height: 163px;
-    bottom: 80%;
+    bottom: 50%;
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
     background-position: center;
@@ -1724,8 +1725,8 @@ a.float13:hover + div.label-container13 {
 }
 
 .label-container14 {
-    position: fixed;
-    bottom: 380px;
+    position: absolute;
+    bottom: 50%;
     /*right:105px;*/
     left: 200px;
     display: table;
@@ -1766,7 +1767,7 @@ a.float14:hover + div.label-container14 {
     position: absolute;
     width: 131px;
     height: 163px;
-    bottom: 80%;
+    bottom: 50%;
     left: 40px;
     background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
     background-position: center;
@@ -1930,7 +1931,7 @@ a.float14:hover + div.label-container14 {
 .column2 {
     flex: 70%;
     padding: 0px;
-    height: 860px;
+    height: 100%;
     width: auto;
     margin-left: 100px;
 }
@@ -1938,12 +1939,15 @@ a.float14:hover + div.label-container14 {
 .column3 {
     flex: 30%;
     padding: 10px;
-    height: 860px;
+    height: auto;
     width: auto;
 }
 
 .rowa {
     display: flex;
+}
+.row{
+text-align: center;
 }
 
 .ciel {
@@ -2118,31 +2122,38 @@ input#t10 {
 .play {
     width: 50px;
     height: 50px;
-    margin-left: 680px;
-    margin-top: 300px;
+    
 }
 
 .encuesta {
-    width: 200px;
-    height: 60px;
-    float: left;
-    margin-left: 427px;
-    margin-top: 507px;
+    position: absolute;
+    bottom: 17%;
+    left: 65%;
+    background-position: center;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
 }
 
 
 .dudas {
-    width: 200px;
-    height: 60px;
-    float: left;
-    margin-left: 307px;
-    margin-top: 507px;
+   position: absolute;
+    bottom: 17%;
+    left: 22%;
+    background-position: center;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
 }
 
 .finalizar {
-    width: 200px;
-    height: 60px;
-    margin-top: 340px;
+ position: absolute;
+    bottom: 1%;
+    left: 45%;
+    background-position: center;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
 }
 
 .contFinalizar {
@@ -2520,9 +2531,17 @@ element.style {
 }
 
 .contImages {
-    max-width: 92%;
+    max-width: 100%;
 }
 
+#contRegistro label {
+    text-align: left;
+}
+
+.btnLinkSection {
+    float: left;
+    margin: 18px;
+}
 
 
 @media (min-width: 576px) {
@@ -2533,6 +2552,10 @@ element.style {
 
 @media (min-width: 992px) {
 
+.play {
+         margin-top: 19%;
+    margin-left: 47%;    
+    }
     .trigger {
         height: 200px;
     }
@@ -2560,11 +2583,11 @@ element.style {
     }
 
     .myGallery {
-        display: grid;
-        grid-gap: 10px;
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-        margin: 30px;
-        height: 70vh;
+      display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    margin: 30px;
+    height: 50vh;
     }
 
     .myGallery .item {
@@ -2579,31 +2602,63 @@ element.style {
     }
 
     .inicio {
-        background-size: 100% auto;
-        width: 85%;
+       /* background-size: 100% auto;
+        width: 85%;*/
     }
 
     .inicio4 {
-        background-size: 100% auto;
-        width: 76%;
+        background-size: 76% auto;
     }
 
 
-    .dudas {
+    /*.dudas {
         width: 200px;
         height: 60px;
         float: left;
         margin-left: 10px;
         margin-top: 225px;
-    }
+    }*/
 
     .dudas img{
 
     }
+  .tabs > label {
+   
+    font-size: 10px;
+  }
+
+  .tabs2 > label {
+   
+          font-size: 8px;
+    }
+
+  .finalizar{
+        left: 40%;
+  }
+
+  .dudas, .encuesta{
+      bottom: 32%;
+   }
+
+.dudas{
+left: 15%;
+}
+
+.encuesta{
+    left: 66%;
+}
+
+
 }
 
 @media (min-width: 1200px) {
 
+    .play {
+         margin-top: 11%;
+         margin-left: 47%;
+
+    
+    }
     .trigger {
         height: 300px;
     }
@@ -2642,13 +2697,13 @@ element.style {
 
 
     .inicio {
-        position: relative;
+       /* position: relative;
         height: 100%;
-        width: 100%;
+        width: 85%;
         min-width: 800px;
         color: white;
         margin: 0 auto;
-        padding: 0;
+        padding: 0;*/
     }
 
     .inicio2 {
@@ -2660,8 +2715,43 @@ element.style {
         margin: 0 auto;
         padding: 0;
     }
+   .tabs > label {
+   
+    font-size: 16.6px;
+}
 
+  .tabs2 > label {
+   
+    font-size: 11px;
+}
+.myGallery {
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        margin: 30px;
+        height: 60vh;
+    }
+
+
+.finalizar{
+        left: 43%;
+  }
   
+
+   .dudas, .encuesta{
+      bottom: 30%;
+   }
+
+
+.dudas{
+   left: 25%;
+}
+
+.encuesta{
+ left: 62%;
+}
+
+
 }
 
 

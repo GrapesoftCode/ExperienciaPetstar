@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using GP.Petstar.Web.Models;
+using System.Collections.Generic;
 
 namespace GP.Petstar.Web.Controllers
 {
@@ -85,9 +86,21 @@ namespace GP.Petstar.Web.Controllers
                 return View(model);
             }
 
+            // Require the user to have a confirmed email before they can log on.
+            var user = await UserManager.FindByNameAsync(model.Email);
+            if (user != null)
+            {
+                if (!await UserManager.IsEmailConfirmedAsync(user.Id))
+                {
+                    AddErrors(new IdentityResult("Debe confirmar el Email antes de continuar."));
+                    return View(model);
+                }
+            }
+
             // This doesn't count login failures towards account lockout
             // To enable password failures to trigger account lockout, change to shouldLockout: true
             var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: false);
+
             switch (result)
             {
                 case SignInStatus.Success:
@@ -98,7 +111,7 @@ namespace GP.Petstar.Web.Controllers
                     return RedirectToAction("SendCode", new { ReturnUrl = returnUrl, RememberMe = model.RememberMe });
                 case SignInStatus.Failure:
                 default:
-                    ModelState.AddModelError("", "Invalid login attempt.");
+                    ModelState.AddModelError("", "Usuario o contraseña invalidos.");
                     return View(model);
             }
         }
@@ -168,22 +181,59 @@ namespace GP.Petstar.Web.Controllers
 
                 if (result.Succeeded)
                 {
-                    await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
+                    //await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
+                    //return RedirectToAction("Index", "Home");
 
                     // For more information on how to enable account confirmation and password reset please visit https://go.microsoft.com/fwlink/?LinkID=320771
                     // Send an email with this link
-                    //string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
-                    //var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
-                    //await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
+
+                    #region Confirm Email
+                    string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
+
+                    var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
+
+                    await UserManager.SendEmailAsync(user.Id, "Confirm your account", callbackUrl);
 
                     return RedirectToAction("Index", "Home");
+                    #endregion
+
                 }
-                if (result.Errors.Contains("Passwords must have at least one non letter or digit character."))
+                else
                 {
-                    result = new IdentityResult("Las contraseñas deben tener al menos un carácter que no sea una letra o un dígito.");
+
+                    List<string> errors = new List<string>();
+
+                    //foreach (var res in result.Errors)
+                    //{
+                    //    if (res.Contains("Passwords must have at least one non letter or digit character."))
+                    //    {
+                    //        errors.Add("Las contraseñas deben tener al menos un carácter que no sea una letra o un dígito.");
+                    //    }
+                    //    else if (res.ToLowerInvariant().Contains("password"))
+                    //    {
+                    //        if (!errors.Contains("Las contraseñas deben tener al menos una letra mayúscula, una minúscula, un dígito y un carácter que no sea una letra o un dígito."))
+                    //            errors.Add("Las contraseñas deben tener al menos una letra mayúscula, una minúscula, un dígito y un carácter que no sea una letra o un dígito.");
+                    //    }
+                    //    else if (res.Contains("taken"))
+                    //    {
+                    //        if (res.Contains("Email"))
+                    //        {
+                    //            errors.Add("La cuenta de correo utilizada ya existe en la base de datos.");
+                    //        }
+                    //    }
+                    //    else if (res.Contains("field is required"))
+                    //    {
+                    //        var data = res.Replace("The", "").Replace("field is required", "");
+                    //        errors.Add("El campo" + data + "requerido.");
+                    //    }
+                    //    else errors.Add(res);
+                    //}
+                    if (errors.Count > 0)
+                        result = new IdentityResult(errors);
                 }
+
                 AddErrors(result);
-            }   
+            }
 
             // If we got this far, something failed, redisplay form
             return View(model);
@@ -198,8 +248,14 @@ namespace GP.Petstar.Web.Controllers
             {
                 return View("Error");
             }
+            if (userId == "test" && code == "test")
+                return View("ConfirmEmail");
+            else if (userId == "test" && code == "error")
+                return View("Error");
+
             var result = await UserManager.ConfirmEmailAsync(userId, code);
             return View(result.Succeeded ? "ConfirmEmail" : "Error");
+
         }
 
         //

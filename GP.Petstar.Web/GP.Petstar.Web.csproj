@@ -385,8 +385,14 @@
     <Content Include="imagenes\UnaMordidaMas.mp4" />
     <Content Include="imagenes\verMas.png" />
     <Content Include="imagenes\www.gif" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3.jpg" />
     <Content Include="images\button.png" />
     <Content Include="images\button2.png" />
+    <Content Include="images\C1.jpg" />
+    <Content Include="images\C2.jpg" />
+    <Content Include="images\C3.jpg" />
     <Content Include="images\clog.png.old.png" />
     <Content Include="images\experiment.png" />
     <Content Include="images\fav.png" />
