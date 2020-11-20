@@ -2599,10 +2599,10 @@ element.style {
             max-height: 100%;
         }
 
-    .inicio {
+   /* .inicio {
         background-size: 100% auto;
         width: 85%;
-    }
+    }*/
 
     .inicio4 {
         background-size: 76% auto;
@@ -2664,8 +2664,8 @@ element.style {
     .inicio {
         position: relative;
         height: 100%;
-        width: 85%;
-        min-width: 800px;
+       /* width: 85%;
+        min-width: 800px;*/
         color: white;
         margin: 0 auto;
         padding: 0;*/
