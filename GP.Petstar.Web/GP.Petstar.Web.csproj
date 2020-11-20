@@ -256,6 +256,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
+    <Content Include="favicon.jpeg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="imagenes\.DS_Store" />
@@ -460,6 +461,7 @@
     <Content Include="documents\Braking the plastic Wave informe completo.pdf" />
     <Content Include="documents\Earth Overshoot Day - Final.pdf" />
     <Content Include="documents\Informe WWF Planeta vivo.pdf" />
+    <None Include="Properties\PublishProfiles\Default Settings.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

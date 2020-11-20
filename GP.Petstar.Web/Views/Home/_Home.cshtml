@@ -62,11 +62,11 @@
         <li>
             <a id="b13" href="#fond12" title="Next Section"><img src="imagenes/flecha 79px.png" alt="Link" /></a>
         </li>
-        <!--  <li><a id="b14"	href="#fond13" title="Next Section"><img src="images/title14.png" alt="Link" /></a></li>
+          <li><a id="b14"	href="#fond13" title="Next Section"><img src="images/title14.png" alt="Link" /></a></li>
         <li><a id="b15"	href="#fond14" title="Next Section"><img src="images/title15.png" alt="Link" /></a></li>
-        <li><a id="b16"	href="#fond15" title="Next Section"><img src="images/title16.png" alt="Link" /></a></li>
+        @*<li><a id="b16"	href="#fond15" title="Next Section"><img src="images/title16.png" alt="Link" /></a></li>
         <li><a id="b17"	href="#fond16" title="Next Section"><img src="images/title17.png" alt="Link" /></a></li>
-        <li><a id="b18"	href="#fond17" title="Next Section"><img src="images/title18.png" alt="Link" /></a></li>-->
+        <li><a id="b18"	href="#fond17" title="Next Section"><img src="images/title18.png" alt="Link" /></a></li>*@
         <!--<li><a id="b20"	href="footer.html" title="Next Section"><img src="images/title19.png" alt="Link" /></a></li>-->
     </div>
 
@@ -84,11 +84,11 @@
     <li><a id="n11" href="#fond10" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
     <li><a id="n12" href="#fond11" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
     <li><a id="n13" href="#fond12" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
-    <!-- <li><a id="n14" href="#fond13" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
+     <li><a id="n14" href="#fond13" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
     <li><a id="n15" href="#fond14" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
-    <li><a id="n16" href="#fond15" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
+    @*<li><a id="n16" href="#fond15" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
     <li><a id="n17" href="#fond16" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>
-    <li><a id="n18" href="#fond17" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>-->
+    <li><a id="n18" href="#fond17" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>*@
     <!-- <li><a id="n20" href="footer.html" title="Next Section"><img src="images/button.png" alt="Link" /></a></li>-->
 </ul>
 
@@ -153,21 +153,21 @@
             </div>
             <div class="row contImages">
                 <div class="col-md-4 col-xs-12 meahogo">
-                    <img class="trigger" src="imagenes/meahogo.png" onclick="toggleModal('#modalTravelerOne')">
+                    <img class="trigger" src="imagenes/meahogo.png" data-toggle="modal" data-target="#modalTravelerOne">
                     <a title="PDF" href="documents/Braking the plastic Wave informe completo.pdf" target="_new">
                         <img src="imagenes/verMas.png">
                     </a>
 
                 </div>
                 <div class="col-md-4 col-xs-12 meahogo">
-                    <img class="trigger" src="imagenes/quecalor.png" onclick="toggleModal('#modalTravelerTwo')">
+                    <img class="trigger" src="imagenes/quecalor.png" data-toggle="modal" data-target="#modalTravelerTwo">
                     <a title="PDF" href="documents/Informe WWF Planeta vivo.pdf" target="_new">
                         <img src="imagenes/verMas.png">
                     </a>
 
                 </div>
                 <div class="col-md-4 col-xs-12 meahogo">
-                    <img class="trigger" src="imagenes/unamordida.png" onclick="toggleModal('#modalTravelerThree')">
+                    <img class="trigger" src="imagenes/unamordida.png" data-toggle="modal" data-target="#modalTravelerThree">
                     <a title="PDF" href="documents/Earth Overshoot Day - Final.pdf" target="_new">
                         <img src="imagenes/verMas.png">
                     </a>
@@ -194,7 +194,7 @@
             </div>
         </div>
 
-        <img class="play" src="imagenes/playwww.png" onclick="toggleModal('#modalresiduos')">
+        <img class="play" src="imagenes/playwww.png" data-toggle="modal" data-target="#modalresiduos">
 
 
     </div>
@@ -604,10 +604,13 @@
 <div alt="you're a runner" id="fond13">
     <!--<div class="fin"></div>-->
 
-    <div class="rowa inicioExt">
+    <div class="inicioExt">
 
-        <div class="column2 ">
+        <div class="row">
             <img class="tierra2" src="imagenes/titutlohacertu.gif">
+        </div>
+        <div class="column2 ">
+            
             <div class='tabs2'>
                 <!-- Flattern structure for adjacent sibling combinator -->
                 <!-- Tab 1 & Content -->
@@ -684,7 +687,7 @@
 
     </div>
 </div>
-	</div>
+	@*</div>*@
 <div alt="you're a rigid guy" id="fond14">
     <div class="fin">
         <div class="dudas">
@@ -740,52 +743,77 @@
 
 
 
-<div class="modal" id="modalTravelerOne">
-    <div class="modal-content">
-        <span class="close-button" onclick="toggleModalOff('#modalTravelerOne')">&times;</span>
+<div class="modal fade" id="modalTravelerOne" tabindex="-1" role="dialog" aria-labelledby="modalTravelerOneTitle">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            @*<span class="close-button" onclick="toggleModalOff('#modalTravelerOne')">&times;</span>*@
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
 
-        <iframe id="frmTravelerOne" class="youtube-video" width="560px" height="500px" src="" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <div class="modal-body">
+                <iframe id="frmTravelerOne" class="youtube-video" width="100%" height="500px" src="" frameborder="0"></iframe>
 
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="modal" id="modalTravelerTwo">
-    <div class="modal-content">
-        <span class="close-button" onclick="toggleModalOff('#modalTravelerTwo')">&times;</span>
 
-        <iframe id="frmTravelerTwo" class="youtube-video" width="560px" height="500px" src=""
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+<div class="modal fade" id="modalTravelerTwo" tabindex="-1" role="dialog" aria-labelledby="modalTravelerTwoTitle">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            @*<span class="close-button" onclick="toggleModalOff('#modalTravelerOne')">&times;</span>*@
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
 
+            <div class="modal-body">
+                <iframe id="frmTravelerTwo" class="youtube-video" width="560px" height="500px" src="" frameborder="0"></iframe>
+
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="modal" id="modalTravelerThree">
-    <div class="modal-content">
-        <span class="close-button" onclick="toggleModalOff('#modalTravelerThree')">&times;</span>
 
-        <iframe id="frmTravelerThree" class="youtube-video" width="560px" height="500px" src=""
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+<div class="modal fade" id="modalTravelerThree" tabindex="-1" role="dialog" aria-labelledby="modalTravelerThreeTitle">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            @*<span class="close-button" onclick="toggleModalOff('#modalTravelerOne')">&times;</span>*@
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
 
+            <div class="modal-body">
+                <iframe id="frmTravelerThree" class="youtube-video" width="560px" height="500px" src="" frameborder="0" ></iframe>
 
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="modal" id="modalresiduos">
-    <div class="modal-content">
-        <span class="close-button" onclick="toggleModalOff('#modalresiduos')">&times;</span>
+<div class="modal fade" id="modalresiduos" tabindex="-1" role="dialog" aria-labelledby="modalresiduosTitle">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            @*<span class="close-button" onclick="toggleModalOff('#modalTravelerOne')">&times;</span>*@
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
 
-        <iframe id="frmResiduos" class="youtube-video" width="560px" height="500px" src=""
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <div class="modal-body">
+                <iframe id="frmResiduos" class="youtube-video" width="560px" height="500px" src="" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
-
+            </div>
+        </div>
     </div>
 </div>
 
@@ -1117,48 +1145,107 @@ $(function () {
     //var trigger = document.querySelector(".trigger");
     //var closeButton = document.querySelector(".close-button");
 
+    $("#modalTravelerOne").on('show.bs.modal', function () {
 
-    function toggleModal(id) {
-        var modal = document.querySelector(id);
-        modal.classList.toggle("show-modal");
-        $(id).modal('show');
+        $(this).find("iframe").attr("src", "imagenes/Me ahogo FINAL.mp4");
+        $(this).find("iframe").contents().find('video').each(function () {
+            this.currentTime = 0;
+            this.play();
+        });
+    });
 
-        if (id == "#modalTravelerOne") {
-            $(id).find("iframe").attr("src", "imagenes/Me ahogo FINAL.mp4");
-        }
-        else if (id == "#modalTravelerTwo") {
-            $(id).find("iframe").attr("src", "imagenes/QueCalorHaceFinal.mp4");
-        }
-        else if (id == "#modalTravelerThree") {
-            $(id).find("iframe").attr("src", "imagenes/UnaMordidaMas.mp4");
-        }
-        else if (id == "#modalresiduos") {
-            $(id).find("iframe").attr("src", "https://www.youtube.com/embed/zUlLouqfWiA");
-        }
-    }
-    function toggleModalOff(id) {
-        var modal = document.querySelector(id);
-        modal.classList.toggle("show-modal");
-        $(id).modal('hide');
-        //$('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+    $("#modalTravelerTwo").on('show.bs.modal', function () {
+        $(this).find("iframe").attr("src", "imagenes/QueCalorHaceFinal.mp4");
+        $(this).find("iframe").contents().find('video').each(function () {
+            this.currentTime = 0;
+            this.play();
+        });
+    });
 
-        $('.youtube-video').each(function () {
-            this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*')
+    $("#modalTravelerThree").on('show.bs.modal', function () {
+        $(this).find("iframe").attr("src", "imagenes/UnaMordidaMas.mp4");
+        $(this).find("iframe").contents().find('video').each(function () {
+            this.currentTime = 0;
+            this.play();
+        });
+    });
+
+    $("#modalresiduos").on('show.bs.modal', function () {
+        $(this).find("iframe").attr("src", "https://www.youtube.com/embed/zUlLouqfWiA?autoplay=1");
+        $(this).find("iframe").contents().find('video').each(function () {
+            this.currentTime = 0;
+            this.play();
+        });
+    });
+
+    //function toggleModal(id) {
+        //var modal = document.querySelector(id);
+        //modal.classList.toggle("show-modal");
+        //$(id).modal('show');
+
+        //if (id == "#modalTravelerOne") {
+        //    //$("#modalTravelerOne").modal("toggle");           
+        //}
+        //else if (id == "#modalTravelerTwo") {
+        //    $(id).find("iframe").attr("src", "imagenes/QueCalorHaceFinal.mp4");
+        //}
+        //else if (id == "#modalTravelerThree") {
+        //    $(id).find("iframe").attr("src", "imagenes/UnaMordidaMas.mp4");
+        //}
+        //else
+        //if (id == "#modalresiduos") {
+        //    $(id).find("iframe").attr("src", "https://www.youtube.com/embed/zUlLouqfWiA");
+        //}
+    //}
+    //function toggleModalOff(id) {
+    //    var modal = document.querySelector(id);
+    //    modal.classList.toggle("show-modal");
+    //    $(id).modal('hide');
+    //    //$('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+
+    //    $('.youtube-video').each(function () {
+    //        this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*')
+    //    });
+
+        //if (id == "#modalTravelerOne") {
+        //    $(id).find("iframe").attr("src", "");
+        //}
+        //else if (id == "#modalTravelerTwo") {
+        //    $(id).find("iframe").attr("src", "");
+        //}
+        //else if (id == "#modalTravelerThree") {
+        //    $(id).find("iframe").attr("src", "");
+        //}
+        //else
+        //if (id == "#modalresiduos") {
+        //    $(id).find("iframe").attr("src", "");
+        //}
+    //}
+
+    $(function () {
+        $('#modalTravelerOne').on('hide.bs.modal', function () {
+            $(this).find("iframe").contents().find('video').each(function () {
+                this.currentTime = 0;
+                this.pause();
+            });
+        });
+        $('#modalTravelerTwo').on('hide.bs.modal', function () {
+            $(this).find("iframe").contents().find('video').each(function () {
+                this.currentTime = 0;
+                this.pause();
+            });
+        });
+        $('#modalTravelerThree').on('hide.bs.modal', function () {
+            $(this).find("iframe").contents().find('video').each(function () {
+                this.currentTime = 0;
+                this.pause();
+            });
         });
 
-        if (id == "#modalTravelerOne") {
-            $(id).find("iframe").attr("src", "");
-        }
-        else if (id == "#modalTravelerTwo") {
-            $(id).find("iframe").attr("src", "");
-        }
-        else if (id == "#modalTravelerThree") {
-            $(id).find("iframe").attr("src", "");
-        }
-        else if (id == "#modalresiduos") {
-            $(id).find("iframe").attr("src", "");
-        }
-    }
+        $('#modalresiduos').on('hide.bs.modal', function () {
+            $(this).find("iframe").attr("src", "");
+        });
+    });
 
 
     function windowOnClick(event) {
