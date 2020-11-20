@@ -1050,7 +1050,7 @@ a.float2:hover + div.label-container2 {
     background: url(../imagenes/FIN.png) 0 no-repeat;
     background-position: center;
     background-size: contain;
-    position: relative;
+    position: absolute;
     height: 100%;
     width: 100%;
     color: white;
@@ -1945,11 +1945,12 @@ a.float14:hover + div.label-container14 {
 
 .rowa {
     display: flex;
-  /*  align-content: center;
+    /*  align-content: center;
     text-align: center;*/
 }
-.row{
-text-align: center;
+
+.row {
+    text-align: center;
 }
 
 .row {
@@ -2145,24 +2146,30 @@ input#t10 {
 
 
 .dudas {
-    width: 200px;
-    height: 60px;
-    float: left;
-    margin-left: 307px;
-    margin-top: 507px;
+    position: absolute;
+    bottom: 17%;
+    left: 65%;
+    background-position: center;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
 }
 
 .finalizar {
-    width: 200px;
-    height: 60px;
-    margin-top: 340px;
+    position: absolute;
+    bottom: 1%;
+    left: 43%;
+    background-position: center;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
 }
 
 .contFinalizar {
-    width: 100%;
+    /*width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
 }
 
 /*Login*/
@@ -2583,9 +2590,9 @@ element.style {
     .myGallery {
         display: grid;
         grid-gap: 10px;
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
         margin: 30px;
-        height: 70vh;
+        height: 50vh;
     }
 
         .myGallery .item {
@@ -2599,7 +2606,7 @@ element.style {
             max-height: 100%;
         }
 
-   /* .inicio {
+    /* .inicio {
         background-size: 100% auto;
         width: 85%;
     }*/
@@ -2619,6 +2626,30 @@ element.style {
 
     .dudas img{
 
+    }*/
+
+    .finalizar {
+        left: 40%;
+    }
+
+     .dudas, .encuesta {
+        bottom: 30%;
+    }
+
+
+      .dudas {
+        left: 18%;
+    }
+
+    .encuesta {
+        left: 65%;
+    }
+
+    .play {
+        width: 50px;
+        height: 50px;
+        margin-left: 480px;
+        margin-top: 150px;
     }
 }
 
@@ -2664,11 +2695,11 @@ element.style {
     .inicio {
         position: relative;
         height: 100%;
-       /* width: 85%;
+        /* width: 85%;
         min-width: 800px;*/
         color: white;
         margin: 0 auto;
-        padding: 0;*/
+        padding: 0;
     }
 
     .inicio2 {
@@ -2680,16 +2711,16 @@ element.style {
         margin: 0 auto;
         padding: 0;
     }
-   .tabs > label {
-   
-    font-size: 16.6px;
-}
 
-  .tabs2 > label {
-   
-    font-size: 11px;
-}
-.myGallery {
+    .tabs > label {
+        font-size: 16.6px;
+    }
+
+    .tabs2 > label {
+        font-size: 11px;
+    }
+
+    .myGallery {
         display: grid;
         grid-gap: 0px;
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -2698,26 +2729,9 @@ element.style {
     }
 
 
-.finalizar{
+    .finalizar {
         left: 43%;
-  }
-  
-
-   .dudas, .encuesta{
-      bottom: 30%;
-   }
-
-
-.dudas{
-   left: 25%;
-}
-
-.encuesta{
- left: 62%;
-}
-
-  
-}
+    }
 
 
     .dudas, .encuesta {
@@ -2726,10 +2740,17 @@ element.style {
 
 
     .dudas {
-        left: 25%;
+        left: 23%;
     }
 
     .encuesta {
-        left: 62%;
+        left: 63%;
+    }
+
+    .play {
+        width: 50px;
+        height: 50px;
+        margin-left: 680px;
+        margin-top: 150px;
     }
 }
