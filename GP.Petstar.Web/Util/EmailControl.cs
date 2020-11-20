@@ -64,7 +64,11 @@ namespace GP.Petstar.Web.Util
                 MailMessage message = new MailMessage(From, To, Subject, Body);
                 message.BodyEncoding = System.Text.Encoding.UTF8;
 
+                //Attachment att = new Attachment("/images/1.jpg");
+                //att.ContentDisposition.Inline = true;
+
                 message.IsBodyHtml = IsBodyHtml;
+                //message.Attachments.Add(att);
 
                 SmtpClient emailClient = new SmtpClient(host, port);
 

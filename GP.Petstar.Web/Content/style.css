@@ -1948,6 +1948,9 @@ a.float14:hover + div.label-container14 {
   /*  align-content: center;
     text-align: center;*/
 }
+.row{
+text-align: center;
+}
 
 .row {
     align-content: center;
@@ -2126,6 +2129,8 @@ input#t10 {
 .play {
     width: 50px;
     height: 50px;
+    margin-left: 680px;
+    margin-top: 300px;
 }
 
 .encuesta {
@@ -2140,23 +2145,17 @@ input#t10 {
 
 
 .dudas {
-    position: absolute;
-    bottom: 17%;
-    left: 22%;
-    background-position: center;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
+    width: 200px;
+    height: 60px;
+    float: left;
+    margin-left: 307px;
+    margin-top: 507px;
 }
 
 .finalizar {
-    position: absolute;
-    bottom: 1%;
-    left: 45%;
-    background-position: center;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
+    width: 200px;
+    height: 60px;
+    margin-top: 340px;
 }
 
 .contFinalizar {
@@ -2555,11 +2554,6 @@ element.style {
 
 @media (min-width: 992px) {
 
-    .play {
-        margin-top: 19%;
-        margin-left: 47%;
-    }
-
     .trigger {
         height: 200px;
     }
@@ -2589,9 +2583,9 @@ element.style {
     .myGallery {
         display: grid;
         grid-gap: 10px;
-        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
         margin: 30px;
-        height: 50vh;
+        height: 70vh;
     }
 
         .myGallery .item {
@@ -2606,8 +2600,8 @@ element.style {
         }
 
     .inicio {
-        /* background-size: 100% auto;
-        width: 85%;*/
+        background-size: 100% auto;
+        width: 85%;
     }
 
     .inicio4 {
@@ -2621,42 +2615,14 @@ element.style {
         float: left;
         margin-left: 10px;
         margin-top: 225px;
-    }*/
-
-    .dudas img {
     }
 
-    .tabs > label {
-        font-size: 10px;
-    }
+    .dudas img{
 
-    .tabs2 > label {
-        font-size: 8px;
-    }
-
-    .finalizar {
-        left: 40%;
-    }
-
-    .dudas, .encuesta {
-        bottom: 32%;
-    }
-
-    .dudas {
-        left: 15%;
-    }
-
-    .encuesta {
-        left: 66%;
     }
 }
 
 @media (min-width: 1200px) {
-
-    .play {
-        margin-top: 11%;
-        margin-left: 47%;
-    }
 
     .trigger {
         height: 300px;
@@ -2696,7 +2662,7 @@ element.style {
 
 
     .inicio {
-        /* position: relative;
+        position: relative;
         height: 100%;
         width: 85%;
         min-width: 800px;
@@ -2714,16 +2680,16 @@ element.style {
         margin: 0 auto;
         padding: 0;
     }
+   .tabs > label {
+   
+    font-size: 16.6px;
+}
 
-    .tabs > label {
-        font-size: 16.6px;
-    }
-
-    .tabs2 > label {
-        font-size: 11px;
-    }
-
-    .myGallery {
+  .tabs2 > label {
+   
+    font-size: 11px;
+}
+.myGallery {
         display: grid;
         grid-gap: 0px;
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -2732,9 +2698,26 @@ element.style {
     }
 
 
-    .finalizar {
+.finalizar{
         left: 43%;
-    }
+  }
+  
+
+   .dudas, .encuesta{
+      bottom: 30%;
+   }
+
+
+.dudas{
+   left: 25%;
+}
+
+.encuesta{
+ left: 62%;
+}
+
+  
+}
 
 
     .dudas, .encuesta {

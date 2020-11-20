@@ -2,9 +2,28 @@
     ViewBag.Title = "Confirm Email";
 }
 
-<h2>@ViewBag.Title.</h2>
-<div>
-    <p>
-        Thank you for confirming your email. Please @Html.ActionLink("Click here to Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })
-    </p>
+
+
+
+<div id="cntLogo">
+    <img id="imgLogo" src="~/imagenes/logo 79px.png" />
 </div>
+
+<div class="title"> Gracias por confirmar su Email. Por favor @Html.ActionLink("De click aquí para ir a login.", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<style>
+    body {
+        background: url(../imagenes/b13.jpg) 0 no-repeat;
+    }
+    .contText 
+    {
+
+    }
+    .contText p{
+    }
+</style>

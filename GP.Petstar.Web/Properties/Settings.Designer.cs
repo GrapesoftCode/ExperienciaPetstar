@@ -61,6 +61,24 @@ namespace GP.Petstar.Web.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("redessociales@petstar.mx")]
+        public string Email_From {
+            get {
+                return ((string)(this["Email_From"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("587")]
+        public int Email_Port {
+            get {
+                return ((int)(this["Email_Port"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("smtp.office365.com")]
         public string Email_Host {
             get {
@@ -79,28 +97,10 @@ namespace GP.Petstar.Web.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("redessociales@petstar.mx")]
-        public string Email_From {
-            get {
-                return ((string)(this["Email_From"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("PSTcomunicacion1")]
         public string Email_Pass {
             get {
                 return ((string)(this["Email_Pass"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("587")]
-        public int Email_Port {
-            get {
-                return ((int)(this["Email_Port"]));
             }
         }
     }
