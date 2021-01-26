@@ -194,7 +194,8 @@ namespace GP.Petstar.Web.Controllers
 
                     await UserManager.SendEmailAsync(user.Id, "Confirm your account", callbackUrl);
 
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("AccountCreated", "Account");
+                    //return RedirectToLocal("AccountCreated");
                     #endregion
 
                 }
@@ -236,8 +237,19 @@ namespace GP.Petstar.Web.Controllers
             }
 
             // If we got this far, something failed, redisplay form
+
+            //var result = await UserManager.ConfirmEmailAsync(userId, code);
+            //return View(result.Succeeded ? "ConfirmEmail" : "Error");
             return View(model);
         }
+
+
+        [AllowAnonymous]
+        public ActionResult AccountCreated()
+        {
+            return View();
+        }
+
 
         //
         // GET: /Account/ConfirmEmail

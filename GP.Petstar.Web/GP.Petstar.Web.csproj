@@ -280,6 +280,8 @@
     <Content Include="imagenes\85.png" />
     <Content Include="imagenes\9.png" />
     <Content Include="imagenes\ajolote2.png" />
+    <Content Include="imagenes\Axolt-s-02.png" />
+    <Content Include="imagenes\axolt.png" />
     <Content Include="imagenes\b1.jpg" />
     <Content Include="imagenes\b10.jpg" />
     <Content Include="imagenes\b11.jpg" />
@@ -318,6 +320,7 @@
     <Content Include="imagenes\experiencia-digital-petstar-3-04.png" />
     <Content Include="imagenes\FIN.png" />
     <Content Include="imagenes\FIN.png.old.png" />
+    <Content Include="imagenes\fin\FIN %282%29.png" />
     <Content Include="imagenes\flecha 79px.png" />
     <Content Include="imagenes\hacertu.png" />
     <Content Include="imagenes\logo 79px.png" />
@@ -378,6 +381,57 @@
     <Content Include="imagenes\RE_ Slide final _Agradecimiento experiencia PetStar_\EJEMPLO.png" />
     <Content Include="imagenes\RE_ Slide final _Agradecimiento experiencia PetStar_\FondoFin.jpg" />
     <Content Include="imagenes\RE_ Slide final _Agradecimiento experiencia PetStar_\image001.jpg" />
+    <Content Include="imagenes\seccionCinco\titulo.png" />
+    <Content Include="imagenes\seccionCinco\pie.png" />
+    <Content Include="imagenes\seccionCuatro\titulo.png" />
+    <Content Include="imagenes\seccionCuatro\play.png" />
+    <Content Include="imagenes\seccionCuatro\contenido.png" />
+    <Content Include="imagenes\seccionCuatro\boton.png" />
+    <Content Include="imagenes\seccionDiez\titulo.png" />
+    <Content Include="imagenes\seccionDiez\contenido.png" />
+    <Content Include="imagenes\seccionDiez\pie.png" />
+    <Content Include="imagenes\seccionDoce\titulo.png" />
+    <Content Include="imagenes\seccionDoce\contenido.png" />
+    <Content Include="imagenes\seccionDoce\pie.png" />
+    <Content Include="imagenes\seccionDos\cuatro.png" />
+    <Content Include="imagenes\seccionDos\uno.png" />
+    <Content Include="imagenes\seccionDos\dos.png" />
+    <Content Include="imagenes\seccionDos\tres.png" />
+    <Content Include="imagenes\seccionDos\cinco.png" />
+    <Content Include="imagenes\seccionDos\seis.png" />
+    <Content Include="imagenes\seccionFinalizar\titulo.png" />
+    <Content Include="imagenes\seccionFinalizar\dudas.png" />
+    <Content Include="imagenes\seccionFinalizar\encuesta.png" />
+    <Content Include="imagenes\seccionFinalizar\texto.png" />
+    <Content Include="imagenes\seccionFinalizar\finalizar.png" />
+    <Content Include="imagenes\seccionNueve\titulo.png" />
+    <Content Include="imagenes\seccionNueve\contenido.png" />
+    <Content Include="imagenes\seccionNueve\pie.png" />
+    <Content Include="imagenes\seccionOcho\titulo.png" />
+    <Content Include="imagenes\seccionOcho\contenido.png" />
+    <Content Include="imagenes\seccionOcho\pie.png" />
+    <Content Include="imagenes\seccionOnce\titulo.png" />
+    <Content Include="imagenes\seccionOnce\contenido.png" />
+    <Content Include="imagenes\seccionOnce\pie.png" />
+    <Content Include="imagenes\seccionSeis\titulo.png" />
+    <Content Include="imagenes\seccionSeis\contenido.png" />
+    <Content Include="imagenes\seccionSeis\pie.png" />
+    <Content Include="imagenes\seccionSiete\titulo.png" />
+    <Content Include="imagenes\seccionSiete\contenido.png" />
+    <Content Include="imagenes\seccionSiete\pie.png" />
+    <Content Include="imagenes\seccionTrece\titulo.png" />
+    <Content Include="imagenes\seccionTrece\contenido.png" />
+    <Content Include="imagenes\seccionTrece\pie.png" />
+    <Content Include="imagenes\seccionTres\uno.png" />
+    <Content Include="imagenes\seccionTres\dos.png" />
+    <Content Include="imagenes\seccionTres\tres.png" />
+    <Content Include="imagenes\seccionTres\titulo.png" />
+    <Content Include="imagenes\seccionUno\pc\bienvenidos.png" />
+    <Content Include="imagenes\seccionUno\pc\titulo.png" />
+    <Content Include="imagenes\seccionUno\pc\contenido.png" />
+    <Content Include="imagenes\seccionUno\titulo.png" />
+    <Content Include="imagenes\seccionUno\contenido.png" />
+    <Content Include="imagenes\seccionUno\bienvenidos.png" />
     <Content Include="imagenes\titulo ODS.jpg" />
     <Content Include="imagenes\titulo ODS.png.old.png" />
     <Content Include="imagenes\titutlohacertu.gif" />
@@ -400,6 +454,11 @@
     <Content Include="images\fin1.png" />
     <Content Include="images\fin2.png" />
     <Content Include="images\fin3.png" />
+    <Content Include="images\FinRecorrido\Credencial-01.png" />
+    <Content Include="images\FinRecorrido\Credencial-02.png" />
+    <Content Include="images\FinRecorrido\Credencial-03.png" />
+    <Content Include="images\FinRecorrido\news-01.png" />
+    <Content Include="images\FinRecorrido\news-02.png" />
     <Content Include="images\flecha%289x79px%29.png" />
     <Content Include="images\flecha.png" />
     <Content Include="images\fleche2.png" />
@@ -530,6 +589,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Scripts\knockout.validation.min.js.map" />
+    <Content Include="Views\Account\AccountCreated.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

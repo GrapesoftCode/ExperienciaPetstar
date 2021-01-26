@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" />
     <meta content="Experiencia PetStar" name="description">
@@ -17,6 +18,16 @@
 
     @Scripts.Render("~/bundles/knockout")
     @Scripts.Render("~/bundles/parallax")
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BM4HF0HS87"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BM4HF0HS87');
+    </script>
 
     @RenderSection("Scripts", required: false)
 </head>

@@ -19,17 +19,18 @@
 
 
 <div id="menu">
-    <a id="exp"><img src="imagenes/logo 79px.png" /></a>
+    <a id="exp"><img src="imagenes/logo 79px.png" id="logo" /></a>
     <!--<a id="know" href="knowm/knowm.html"><img alt="know more" src="images/know.png"/></a>
     <a id="shop" href="shop/index.html"><img alt="shop section" src="shop/images/shop.png"/></a>-->
 
 </div>
 
 
-
 <ul id="nav">
 
+    <div style="color:white; font-weight:bold;">Menú</div>
     <div id="nom">
+
         <li><a id="b1" href="#intro" title="Next Section"><img src="imagenes/flecha 79px.png" alt="Link" /></a></li>
         <li>
             <a id="b19" href="#fond19" title="Next Section"><img src="imagenes/flecha 79px.png" alt="Link" /></a>
@@ -58,8 +59,8 @@
         <li>
             <a id="b13" href="#fond12" title="Next Section"><img src="imagenes/flecha 79px.png" alt="Link" /></a>
         </li>
-        <li><a id="b14" href="#fond13" title="Next Section"><img src="images/title14.png" alt="Link" /></a></li>
-        <li><a id="b15" href="#fond14" title="Next Section"><img src="images/title15.png" alt="Link" /></a></li>
+        <li><a id="b14" href="#fond13" title="Next Section"><img src="imagenes/flecha 79px.png" alt="Link" /></a></li>
+        <li><a id="b15" href="#fond14" title="Next Section"><img src="imagenes/flecha 79px.png" alt="Link" /></a></li>
         @*<li><a id="b16"	href="#fond15" title="Next Section"><img src="images/title16.png" alt="Link" /></a></li>
             <li><a id="b17"	href="#fond16" title="Next Section"><img src="images/title17.png" alt="Link" /></a></li>
             <li><a id="b18"	href="#fond17" title="Next Section"><img src="images/title18.png" alt="Link" /></a></li>*@
@@ -89,12 +90,21 @@
 </ul>
 
 <div id="intro">
-
     @*<a id="fleche" href="#fond19"><img alt="fleche" src="images/fleche2.png"></a>*@
-    <div class="inicio">
-        <span class="float">
+
+    <div class="content-mobile">
+        <div class="intro-titulo">
+        </div>
+        <div class="intro-contenido">
+        </div>
+        <div class="intro-bienvenido">
+        </div>
+    </div>
+    <div class="content-other inicio">
+        <span class="float fade-in">
             <i class="fa fa-envelope my-float"></i>
         </span>
+
         <div class="label-container">
             <div class="label-text">
                 <p>
@@ -109,7 +119,15 @@
 </div>
 
 <div alt="you're a night rider" id="fond19">
-    <div class="inicio2">
+    <div class="content-mobile">
+        <div class="fond19-uno"></div>
+        <div class="fond19-dos"></div>
+        <div class="fond19-tres"></div>
+        <div class="fond19-cuatro"></div>
+        <div class="fond19-cinco"></div>
+        <div class="fond19-seis"></div>
+    </div>
+    <div class="content-other inicio2">
         <a class="float2">
             <i class="fa fa-envelope my-float"></i>
         </a>
@@ -120,14 +138,56 @@
             <i class="fa fa-play label-arrow2"></i>
         </div>
     </div>
-
-
 </div>
 
-
 <div alt="you're a traveler" id="traveler">
+    <div class="content-mobile">
+        <div class="traveler-titulo">
 
-    <div class="story">
+        </div>
+        <div class="traveler-contenido">
+            <section style="background-color:transparent;">
+                <div id="carousel-traveler" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="imagenes/unamordida.png" data-toggle="modal" data-target="#modalTravelerThree">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="imagenes/meahogo.png" data-toggle="modal" data-target="#modalTravelerOne">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="imagenes/quecalor.png" data-toggle="modal" data-target="#modalTravelerTwo">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    @*<a class="left carousel-control" href="#carousel-traveler" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-traveler" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>*@
+
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-traveler" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-traveler" data-slide-to="1"></li>
+                        <li data-target="#carousel-traveler" data-slide-to="2"></li>
+                    </ol>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="content-other story">
         <!--<div class="bg"></div>-->
 
         <div class="container">
@@ -174,7 +234,13 @@
 </div>
 
 <div alt="you're a weirdo" id="third">
-    <div class="inicio4">
+    <div class="content-mobile">
+        <div class="third-titulo"></div>
+        <div class="third-play" data-toggle="modal" data-target="#modalresiduos"></div>
+        <div class="third-contenido"></div>
+        <div class="third-boton"></div>
+    </div>
+    <div class="content-other inicio4">
         <a class="float4">
             <i class="fa fa-envelope my-float4"></i>
         </a>
@@ -195,11 +261,50 @@
 </div>
 
 <div alt="you're a hipster" id="hipster">
-    <div class="rowa inicio5">
-        <div class="column1 ">
-
+    <div class="content-mobile">
+        <div class="hipster-titulo"></div>
+        <div class="hipster-contenido">
+            <section style="background-color:white;">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item waves-effect waves-effect li-pet">
+                        <a class="nav-link active" id="uno-tab" data-toggle="tab" href="#uno" role="tab" aria-controls="uno" aria-selected="true">Valor del PET</a>
+                    </li>
+                    <li class="nav-item waves-effect waves-effect li-pet">
+                        <a class="nav-link" id="dos-tab" data-toggle="tab" href="#dos" role="tab" aria-controls="dos" aria-selected="false">PetSart Reborn</a>
+                    </li>
+                    <li class="nav-item waves-effect waves-effect li-pet">
+                        <a class="nav-link" id="tres-tab" data-toggle="tab" href="#tres" role="tab" aria-controls="tres" aria-selected="false">Más que reciclaje</a>
+                    </li>
+                    <li class="nav-item waves-effect waves-effect li-pet">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#cuatro" role="tab" aria-controls="cuatro" aria-selected="false">PET</a>
+                    </li>
+                    <li class="nav-item waves-effect waves-effect li-pet">
+                        <a class="nav-link" id="cuatro-tab" data-toggle="tab" href="#cinco" role="tab" aria-controls="cinco" aria-selected="false">Reciclaje</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="hipsterTab">
+                    <div class="tab-pane fade in active" id="uno" role="tabpanel" aria-labelledby="uno-tab">
+                        <img class="ciel" src="imagenes/ciel/Imagen 1.jpg">
+                    </div>
+                    <div class="tab-pane fade" id="dos" role="tabpanel" aria-labelledby="dos-tab">
+                        <img class="ciel" src="imagenes/ciel/Imagen 2.jpg">
+                    </div>
+                    <div class="tab-pane fade" id="tres" role="tabpanel" aria-labelledby="tres-tab">
+                        <img class="ciel" src="imagenes/ciel/Imagen 3.jpg">
+                    </div>
+                    <div class="tab-pane fade" id="cuatro" role="tabpanel" aria-labelledby="cuatro-tab">
+                        <img class="ciel" src="imagenes/ciel/Imagen 4.jpg">
+                    </div>
+                    <div class="tab-pane fade" id="cinco" role="tabpanel" aria-labelledby="cinco-tab">
+                        <img class="ciel" src="imagenes/ciel/Imagen 5.jpg">
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="column">
+        <div class="hipster-pie"></div>
+    </div>
+    <div class="content-other inicio5">
+        <div class="">
             <a class="float5">
                 <i class="fa fa-envelope my-float5"></i>
             </a>
@@ -211,65 +316,66 @@
                     </p>
                 </div>
             </div>
-            <div class='tabs'>
-                <!-- Flattern structure for adjacent sibling combinator -->
-                <!-- Tab 1 & Content -->
-                <input type="radio" name="tab" id="tab1" role="tab" checked>
-                <label for="tab1" id="tab1-label">Valor del PET</label>
-                <section aria-labelledby="tab1-label">
-                    <div class="row ">
-                        <img class="ciel" src="imagenes/ciel/Imagen 1.jpg">
-                    </div>
-                </section>
-
-                <!-- Tab 2 & Content -->
-                <input type="radio" name="tab" id="tab2" role="tab">
-                <label for="tab2" id="tab2-label">PetStar Reborn</label>
-                <section aria-labelledby="tab2-label">
-                    <div class="row ">
-                        <img class="ciel" src="imagenes/ciel/Imagen 2.jpg">
-                    </div>
-                </section>
-
-                <!-- Tab 3 & Content -->
-                <input type="radio" name="tab" id="tab3" role="tab">
-                <label for="tab3" id="tab3-label">Mas que reciclaje</label>
-                <section aria-labelledby="tab3-label">
-                    <div class="row ">
-                        <img class="ciel" src="imagenes/ciel/Imagen 3.jpg">
-                    </div>
-                </section>
-
-                <!-- Tab 4 & Content -->
-                <input type="radio" name="tab" id="tab4" role="tab">
-                <label for="tab4" id="tab4-label">PET</label>
-                <section aria-labelledby="tab4-label">
-                    <div class="row ">
-                        <img class="ciel" src="imagenes/ciel/Imagen 4.jpg">
-                    </div>
-                </section>
-
-                <!-- Tab 5 & Content -->
-                <input type="radio" name="tab" id="tab5" role="tab">
-                <label for="tab5" id="tab5-label">Reciclaje</label>
-                <section aria-labelledby="tab5-label">
-                    <div class="row ">
-                        <img class="ciel" src="imagenes/ciel/Imagen 6.jpg">
-                    </div>
-                </section>
-
-
-
+            <div class="column-ps-uno">
             </div>
+            <div class="column-ps-dos">
+                <div class='tabs'>
+                    <!-- Flattern structure for adjacent sibling combinator -->
+                    <!-- Tab 1 & Content -->
+                    <input type="radio" name="tab" id="tab1" role="tab" checked>
+                    <label for="tab1" id="tab1-label">Valor del PET</label>
+                    <section aria-labelledby="tab1-label">
+                        <div class="row ">
+                            <img class="ciel" src="imagenes/ciel/Imagen 1.jpg">
+                        </div>
+                    </section>
 
-        </div>
+                    <!-- Tab 2 & Content -->
+                    <input type="radio" name="tab" id="tab2" role="tab">
+                    <label for="tab2" id="tab2-label">PetStar Reborn</label>
+                    <section aria-labelledby="tab2-label">
+                        <div class="row ">
+                            <img class="ciel" src="imagenes/ciel/Imagen 2.jpg">
+                        </div>
+                    </section>
+
+                    <!-- Tab 3 & Content -->
+                    <input type="radio" name="tab" id="tab3" role="tab">
+                    <label for="tab3" id="tab3-label">Mas que reciclaje</label>
+                    <section aria-labelledby="tab3-label">
+                        <div class="row ">
+                            <img class="ciel" src="imagenes/ciel/Imagen 3.jpg">
+                        </div>
+                    </section>
+
+                    <!-- Tab 4 & Content -->
+                    <input type="radio" name="tab" id="tab4" role="tab">
+                    <label for="tab4" id="tab4-label">PET</label>
+                    <section aria-labelledby="tab4-label">
+                        <div class="row ">
+                            <img class="ciel" src="imagenes/ciel/Imagen 4.jpg">
+                        </div>
+                    </section>
+
+                    <!-- Tab 5 & Content -->
+                    <input type="radio" name="tab" id="tab5" role="tab">
+                    <label for="tab5" id="tab5-label">Reciclaje</label>
+                    <section aria-labelledby="tab5-label">
+                        <div class="row ">
+                            <img class="ciel" src="imagenes/ciel/Imagen 6.jpg">
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>       
     </div>
-
-
 </div>
 
 <div alt="you're a swagger" id="fond4">
-    <div class="story">
+    <div class="content-mobile">
+        
+    </div>
+    <div class="content-other story">
         <!--<div class="bg"></div>-->
         <div class="container">
             <div class="row ">
@@ -409,7 +515,13 @@
 </div>
 
 <div alt="you're a vintage guy" id="fond5">
-    <div class="inicio7">
+    <div class="content-mobile">
+        <div class="fond5-titulo"></div>
+        <div class="fond5-contenido" data-toggle="modal" data-target="#modalfond5"></div>
+        <div class="fond5-pie"></div>
+        
+    </div>
+    <div class="content-other inicio7">
         <!--<div class="bg"></div>-->
         <div class="contenedor">
             <a class="float7">
@@ -431,10 +543,15 @@
         </div>
 
     </div>
-
 </div>
+
 <div alt="you're a grand pa" id="fond6">
-    <div class="inicio8">
+    <div class="content-mobile">
+        <div class="fond6-titulo"></div>
+        <div class="fond6-contenido"  data-toggle="modal" data-target="#modalfond6"></div>
+        <div class="fond6-pie"></div>
+    </div>
+    <div class="content-other inicio8">
         <div class="contenedor">
             <a class="float8">
                 <i class="fa fa-envelope my-float8"></i>
@@ -457,8 +574,14 @@
 
     </div>
 </div>
+
 <div alt="you're a tandem" id="fond7">
-    <div class="inicio9">
+    <div class="content-mobile">
+        <div class="fond7-titulo"></div>
+        <div class="fond7-contenido" data-toggle="modal" data-target="#modalfond7"></div>
+        <div class="fond7-pie"></div>
+    </div>
+    <div class="content-other inicio9">
         <div class="contenedor">
             <a class="float9">
                 <i class="fa fa-envelope my-float9"></i>
@@ -480,8 +603,14 @@
 
     </div>
 </div>
+
 <div alt="you're a baby doll" id="fond8">
-    <div class="inicio10">
+    <div class="content-mobile">
+        <div class="fond8-titulo"></div>
+        <div class="fond8-contenido" data-toggle="modal" data-target="#modalfond8"></div>
+        <div class="fond8-pie"></div>
+    </div>
+    <div class="content-other inicio10">
         <div class="contenedor">
             <a class="float10">
                 <i class="fa fa-envelope my-float10"></i>
@@ -501,11 +630,15 @@
                     allowfullscreen></iframe>
         </div>
     </div>
-
 </div>
-	</div>
+
 <div alt="you're a cougar" id="fond9">
-    <div class="inicio11">
+    <div class="content-mobile">
+        <div class="fond9-titulo"></div>
+        <div class="fond9-contenido" data-toggle="modal" data-target="#modalfond9"></div>
+        <div class="fond9-pie"></div>
+    </div>
+    <div class="content-other inicio11">
         <div class="contenedor">
             <a class="float11">
                 <i class="fa fa-envelope my-float11"></i>
@@ -525,10 +658,15 @@
                     allowfullscreen></iframe>
         </div>
     </div>
-
 </div>
+
 <div alt="you're a freestyler" id="fond10">
-    <div class="inicio12">
+    <div class="content-mobile">
+        <div class="fond10-titulo"></div>
+        <div class="fond10-contenido" data-toggle="modal" data-target="#modalfond10"></div>
+        <div class="fond10-pie"></div>
+    </div>
+    <div class="content-other inicio12">
         <div class="contenedor">
             <a class="float12">
                 <i class="fa fa-envelope my-float12"></i>
@@ -549,8 +687,14 @@
         </div>
     </div>
 </div>
+
 <div alt="you're a gangsta" id="fond11">
-    <div class="inicio13">
+    <div class="content-mobile">
+        <div class="fond11-titulo"></div>
+        <div class="fond11-contenido" data-toggle="modal" data-target="#modalfond11"></div>
+        <div class="fond11-pie"></div>
+    </div>
+    <div class="content-other inicio13">
         <div class="contenedor">
             <a class="float13">
                 <i class="fa fa-envelope my-float13"></i>
@@ -571,8 +715,14 @@
         </div>
     </div>
 </div>
+
 <div alt="you're a lil gangsta" id="fond12">
-    <div class="inicio14">
+    <div class="content-mobile">
+        <div class="fond12-titulo"></div>
+        <div class="fond12-contenido" data-toggle="modal" data-target="#modalfond12"></div>
+        <div class="fond12-pie"></div>
+    </div>
+    <div class="content-other inicio14">
         <div class="contenedor">
             <a class="float14">
                 <i class="fa fa-envelope my-float14"></i>
@@ -595,98 +745,144 @@
         </div>
     </div>
 </div>
+
 <div alt="you're a runner" id="fond13">
     <!--<div class="fin"></div>-->
-
-    <div class="inicioExt">
-        <div class="row">
-            <img class="tierra2" src="imagenes/titutlohacertu.gif">
+    <div class="content-mobile">
+        <div class="fond13-titulo"></div>
+        <div class="fond13-contenido">
+            <section style="background-color:white;">
+                <ul class="nav nav-tabs" id="tabfond13" role="tablist">
+                    <li class="nav-item waves-effect waves-effect li-pet">
+                        <a class="nav-link active" id="lif13-Uno" data-toggle="tab" href="#ctabf13-Uno" role="tab" aria-controls="uno" aria-selected="true">Calcula tu Huella</a>
+                    </li>
+                    <li class="nav-item waves-effect waves-effect li-pet">
+                        <a class="nav-link" id="lif13-Dos" data-toggle="tab" href="#ctabf13-Dos" role="tab" aria-controls="dos" aria-selected="false">Compromiso individual</a>
+                    </li>
+                    <li class="nav-item waves-effect waves-effect li-pet">
+                        <a class="nav-link" id="lif13-Tres" data-toggle="tab" href="#ctabf13-Tres" role="tab" aria-controls="tres" aria-selected="false">Compromiso participativo</a>
+                    </li>
+                    <li class="nav-item waves-effect waves-effect li-pet">
+                        <a class="nav-link" id="lif13-Cuatro" data-toggle="tab" href="#ctabf13-Cuatro" role="tab" aria-controls="cuatro" aria-selected="false">Compromiso social</a>
+                    </li>
+                    <li class="nav-item waves-effect waves-effect li-pet">
+                        <a class="nav-link" id="lif13-Cinco" data-toggle="tab" href="#ctabf13-Cinco" role="tab" aria-controls="cinco" aria-selected="false">Compromiso educativo</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="ctabf13">
+                    <div class="tab-pane fade in active" id="ctabf13-Uno" role="tabpanel" aria-labelledby="uno-tab">
+                        <img class="ciel" src="imagenes/n1.jpg">
+                    </div>
+                    <div class="tab-pane fade" id="ctabf13-Dos" role="tabpanel" aria-labelledby="dos-tab">
+                        <img class="ciel" src="imagenes/n2.jpg">
+                    </div>
+                    <div class="tab-pane fade" id="ctabf13-Tres" role="tabpanel" aria-labelledby="tres-tab">
+                        <img class="ciel" src="imagenes/n3.jpg">
+                    </div>
+                    <div class="tab-pane fade" id="ctabf13-Cuatro" role="tabpanel" aria-labelledby="cuatro-tab">
+                        <img class="ciel" src="imagenes/n4.jpg">
+                    </div>
+                    <div class="tab-pane fade" id="ctabf13-Cinco" role="tabpanel" aria-labelledby="cinco-tab">
+                        <img class="ciel" src="imagenes/n5.jpg">
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="column2">
-            <div class='tabs2'>
-                <!-- Flattern structure for adjacent sibling combinator -->
-                <!-- Tab 1 & Content -->
-                <input type="radio" name="tab2" id="tab11" role="tab2" checked>
-                <label for="tab11" id="tab11-label">Calcula tu Huella</label>
-                <section aria-labelledby="tab11-label">
-                    <div class="row ">
-
-                        <a href="http://grapesoft-001-site4.ctempurl.com/" target="_new">
-                            <img class="ciel2"
-                                 src="imagenes/n1.jpg">
-                        </a>
-                    </div>
-                </section>
-
-                <!-- Tab 2 & Content -->
-                <input type="radio" name="tab2" id="tab12" role="tab2">
-                <label for="tab12" id="tab12-label">Compromiso individual</label>
-                <section aria-labelledby="tab12-label">
-                    <div class="row ">
-
-                        <a href="https://www.un.org/en/actnow/" target="_new">
-                            <img class="ciel2"
-                                 src="imagenes/n2.jpg">
-                        </a>
-                    </div>
-                </section>
-
-                <!-- Tab 3 & Content -->
-                <input type="radio" name="tab2" id="tab13" role="tab2">
-                <label for="tab13" id="tab13-label">Compromiso participativo</label>
-                <section aria-labelledby="tab13-label">
-                    <div class="row ">
-
-                        <a href="https://cartadelatierra.org/" target="_new">
-                            <img class="ciel2"
-                                 src="imagenes/n3.jpg">
-                        </a>
-                    </div>
-                </section>
-
-                <!-- Tab 4 & Content -->
-                <input type="radio" name="tab2" id="tab14" role="tab2">
-                <label for="tab14" id="tab14-label">Compromiso social</label>
-                <section aria-labelledby="tab14-label">
-                    <div class="row ">
-
-                        <a href=" https://www.decalogosustentable.org/decalogo/cual-es-tu-sueno/#:~:text=En%20Fundaci%C3%B3n%20Tl%C3%A1loc%20so%C3%B1amos%20en,manera%20informada%20y%20propositiva%20en"
-                           target="_new"><img class="ciel2" src="imagenes/n4.jpg"></a>
-                    </div>
-                </section>
-
-                <!-- Tab 5 & Content -->
-                <input type="radio" name="tab2" id="tab15" role="tab2">
-                <label for="tab15" id="tab15-label">Compromiso educativo</label>
-                <section aria-labelledby="tab15-label">
-                    <div class="row ">
-
-                        <a href="https://www.ecoce.mx/educa_verde/" target="_new">
-                            <img class="ciel2"
-                                 src="imagenes/n5.jpg">
-                        </a>
-                        <!--<iframe class="youtube-video" width="560px" height="500px" src="https://www.ecoce.mx/educa_verde/" frameborder="0" allowfullscreen></iframe>-->
-
-                    </div>
-                </section>
+        <div class="fond13-pie"></div>
+    </div>
+    <div class="content-other inicioExt">
+        <div class="">
+            <div class="row">
+                <img class="tierra2" src="imagenes/titutlohacertu.gif">
             </div>
+            <div class="column-ps-dos">
+                <div class="tabs2">
+                    <!-- Flattern structure for adjacent sibling combinator -->
+                    <!-- Tab 1 & Content -->
+                    <input type="radio" name="tab2" id="tab11" role="tab" checked>
+                    <label for="tab11" id="tab11-label">Calcula tu Huella</label>
+                    <section aria-labelledby="tab11-label">
+                        <div class="row ">
+
+                            <a href="http://grapesoft-001-site4.ctempurl.com/" target="_new">
+                                <img class="ciel2"
+                                     src="imagenes/n1.jpg">
+                            </a>
+                        </div>
+                    </section>
+
+                    <!-- Tab 2 & Content -->
+                    <input type="radio" name="tab2" id="tab12" role="tab">
+                    <label for="tab12" id="tab12-label">Compromiso individual</label>
+                    <section aria-labelledby="tab12-label">
+                        <div class="row ">
+
+                            <a href="https://www.un.org/en/actnow/" target="_new">
+                                <img class="ciel2"
+                                     src="imagenes/n2.jpg">
+                            </a>
+                        </div>
+                    </section>
+
+                    <!-- Tab 3 & Content -->
+                    <input type="radio" name="tab2" id="tab13" role="tab">
+                    <label for="tab13" id="tab13-label">Compromiso participativo</label>
+                    <section aria-labelledby="tab13-label">
+                        <div class="row ">
+
+                            <a href="https://cartadelatierra.org/" target="_new">
+                                <img class="ciel2"
+                                     src="imagenes/n3.jpg">
+                            </a>
+                        </div>
+                    </section>
+
+                    <!-- Tab 4 & Content -->
+                    <input type="radio" name="tab2" id="tab14" role="tab">
+                    <label for="tab14" id="tab14-label">Compromiso social</label>
+                    <section aria-labelledby="tab14-label">
+                        <div class="row ">
+
+                            <a href=" https://www.decalogosustentable.org/decalogo/cual-es-tu-sueno/#:~:text=En%20Fundaci%C3%B3n%20Tl%C3%A1loc%20so%C3%B1amos%20en,manera%20informada%20y%20propositiva%20en"
+                               target="_new"><img class="ciel2" src="imagenes/n4.jpg"></a>
+                        </div>
+                    </section>
+
+                    <!-- Tab 5 & Content -->
+                    <input type="radio" name="tab2" id="tab15" role="tab">
+                    <label for="tab15" id="tab15-label">Compromiso educativo</label>
+                    <section aria-labelledby="tab15-label">
+                        <div class="row ">
+
+                            <a href="https://www.ecoce.mx/educa_verde/" target="_new">
+                                <img class="ciel2"
+                                     src="imagenes/n5.jpg">
+                            </a>
+                            <!--<iframe class="youtube-video" width="560px" height="500px" src="https://www.ecoce.mx/educa_verde/" frameborder="0" allowfullscreen></iframe>-->
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="column-ps-uno"></div>
         </div>
-        <div class="column3">
-
-        </div>
-
-
-
     </div>
 </div>
-@*</div>*@
+
 <div alt="you're a rigid guy" id="fond14">
-    <div class="fin">
+    <div class="content-mobile">
+        <div class="fond14-titulo"></div>
+        <div class="fond14-dudas" data-toggle="modal" data-target="#modalfond14"></div>
+        <div class="fond14-encuesta"></div>
+        <div class="fond14-texto"></div>
+        <div class="fond14-finalizar"></div>
+    </div>
+    <div class="content-other fin">
         <div class="dudas">
-            <img src="imagenes/dudas.png" onclick="toggleModal('#modaldudas')">
+            <img src="imagenes/dudas.png" data-toggle="modal" data-target="#modaldudas">
         </div>
         <div class="encuesta">
-            <img src="imagenes/encuesta.png" onclick="toggleModal('#modalencuesta')">
+            <img src="imagenes/encuesta.png" data-toggle="modal" data-target="#modalencuesta">
         </div>
         <div class="contFinalizar">
             <div class="finalizar">
@@ -735,9 +931,6 @@
     <p>© Petstar — Derechos reservados</p>
 </div></footer>-->
 
-
-
-
 <div class="modal fade" id="modalTravelerOne" tabindex="-1" role="dialog" aria-labelledby="modalTravelerOneTitle">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -755,7 +948,6 @@
         </div>
     </div>
 </div>
-
 
 <div class="modal fade" id="modalTravelerTwo" tabindex="-1" role="dialog" aria-labelledby="modalTravelerTwoTitle">
     <div class="modal-dialog" role="document">
@@ -775,7 +967,6 @@
     </div>
 </div>
 
-
 <div class="modal fade" id="modalTravelerThree" tabindex="-1" role="dialog" aria-labelledby="modalTravelerThreeTitle">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -789,6 +980,142 @@
             <div class="modal-body">
                 <iframe id="frmTravelerThree" class="youtube-video" width="560px" height="500px" src="" frameborder="0"></iframe>
 
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalfond5" tabindex="-1" role="dialog" aria-labelledby="modalfon5Title">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            @*<span class="close-button" onclick="toggleModalOff('#modalTravelerOne')">&times;</span>*@
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <iframe id="frmFond5" class="youtube-video" width="560px" height="500px" src="" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalfond6" tabindex="-1" role="dialog" aria-labelledby="modalfon6Title">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            @*<span class="close-button" onclick="toggleModalOff('#modalTravelerOne')">&times;</span>*@
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <iframe id="frmFond6" class="youtube-video" width="560px" height="500px" src="" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalfond7" tabindex="-1" role="dialog" aria-labelledby="modalfond7Title">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            @*<span class="close-button" onclick="toggleModalOff('#modalTravelerOne')">&times;</span>*@
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <iframe id="frmFond7" class="youtube-video" width="560px" height="500px" src="" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalfond8" tabindex="-1" role="dialog" aria-labelledby="modalfond8Title">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            @*<span class="close-button" onclick="toggleModalOff('#modalTravelerOne')">&times;</span>*@
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <iframe id="frmFond8" class="youtube-video" width="560px" height="500px" src="" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalfond9" tabindex="-1" role="dialog" aria-labelledby="modalfond9Title">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            @*<span class="close-button" onclick="toggleModalOff('#modalTravelerOne')">&times;</span>*@
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <iframe id="frmFond9" class="youtube-video" width="560px" height="500px" src="" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalfond10" tabindex="-1" role="dialog" aria-labelledby="modalfond10Title">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            @*<span class="close-button" onclick="toggleModalOff('#modalTravelerOne')">&times;</span>*@
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <iframe id="frmFond10" class="youtube-video" width="560px" height="500px" src="" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalfond11" tabindex="-1" role="dialog" aria-labelledby="modalfond11Title">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            @*<span class="close-button" onclick="toggleModalOff('#modalTravelerOne')">&times;</span>*@
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <iframe id="frmFond11" class="youtube-video" width="560px" height="500px" src="" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalfond12" tabindex="-1" role="dialog" aria-labelledby="modalfond12Title">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            @*<span class="close-button" onclick="toggleModalOff('#modalTravelerOne')">&times;</span>*@
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <iframe id="frmFond12" class="youtube-video" width="560px" height="500px" src="" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
         </div>
     </div>
@@ -812,161 +1139,174 @@
     </div>
 </div>
 
-<div class="modal" id="modalencuesta">
-    <div class="modal-content">
-        <span class="close-button" onclick="toggleModalOff('#modalencuesta')"></span>
-        <iframe class="youtube-video" width="560px" height="500px"
-                src="https://www.questionpro.com/a/TakeSurvey?tt=mliwCab9FvE%3D" frameborder="0"
-                allowfullscreen></iframe>
+<div class="modal fade" id="modalencuesta" tabindex="-1" role="dialog" aria-labelledby="modalencuestaTitle">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
 
-
+            <div class="modal-body">
+                <iframe class="youtube-video" width="560px" height="500px"
+                        src="https://www.questionpro.com/a/TakeSurvey?tt=mliwCab9FvE%3D" frameborder="0"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
 </div>
 
+<div class="modal fade" id="modaldudas" tabindex="-1" role="dialog" aria-labelledby="modaldudasTitle">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="lol" style="width:100%">
+                    <div class="accordion">
+                        <label for="t1" class="accordionitem">
+                            <h5>¿Dónde puedo entregar mis envases de PET? <span class="arrow">»</span></h5>
+                        </label>
+                        <input type="checkbox" id="t1" />
+                        <p class="hiddentext">
+                            Primero que nada, te recomiendo separar tus residuos en orgánicos, inorgánicos
+                            y reciclables. En el caso de los envases de PET siempre has los 4 pasos
+                            (Vacía-Aplasta-Cierra-Deposita) y ponlos en otro contenedor. Una vez separados, hay que
+                            entregarlos a los servicios de limpia autorizados o bien identificar cerca de su domicilio algún
+                            punto de acopio de reciclables. En nuestras plantas de acopio no contamos con puntos de compra.
+                        </p>
+                    </div>
 
-<div class="modal" id="modaldudas">
-    <div class="modal-content">
-        <span class="close-button" onclick="toggleModalOff('#modaldudas')"></span>
-        <div id="lol" style="width: 900px;">
-            <div class="accordion">
-                <label for="t1" class="accordionitem">
-                    <h5>¿Dónde puedo entregar mis envases de PET? <span class="arrow">»</span></h5>
-                </label>
-                <input type="checkbox" id="t1" />
-                <p class="hiddentext">
-                    Primero que nada, te recomiendo separar tus residuos en orgánicos, inorgánicos
-                    y reciclables. En el caso de los envases de PET siempre has los 4 pasos
-                    (Vacía-Aplasta-Cierra-Deposita) y ponlos en otro contenedor. Una vez separados, hay que
-                    entregarlos a los servicios de limpia autorizados o bien identificar cerca de su domicilio algún
-                    punto de acopio de reciclables. En nuestras plantas de acopio no contamos con puntos de compra.
-                </p>
-            </div>
+                    <div class="accordion">
+                        <label for="t2" class="accordionitem">
+                            <h5>¿Tienen algún programa de acopio para escuelas? <span class="arrow">»</span></h5>
+                        </label>
+                        <input type="checkbox" id="t2" />
+                        <p class="hiddentext">
+                            En PetStar no contamos con programas de acopio en escuelas debido a que
+                            nuestro modelo de acopio está enfocado a generar movilidad social para recuperadores y
+                            recolectores de residuos. Si eres una escuela, te recomendamos inscribirte en un programa de
+                            acopio permanente de residuos, un ejemplo de estos programas es los liderados por ECOCE. Más
+                            info: www.ecoce.mx
+                        </p>
+                    </div>
 
-            <div class="accordion">
-                <label for="t2" class="accordionitem">
-                    <h5>¿Tienen algún programa de acopio para escuelas? <span class="arrow">»</span></h5>
-                </label>
-                <input type="checkbox" id="t2" />
-                <p class="hiddentext">
-                    En PetStar no contamos con programas de acopio en escuelas debido a que
-                    nuestro modelo de acopio está enfocado a generar movilidad social para recuperadores y
-                    recolectores de residuos. Si eres una escuela, te recomendamos inscribirte en un programa de
-                    acopio permanente de residuos, un ejemplo de estos programas es los liderados por ECOCE. Más
-                    info: www.ecoce.mx
-                </p>
-            </div>
+                    <div class="accordion">
+                        <label for="t3" class="accordionitem">
+                            <h5>¿Cómo puedo agendar una visita a sus instalaciones? <span class="arrow">»</span></h5>
+                        </label>
+                        <input type="checkbox" id="t3" />
+                        <p class="hiddentext">
+                            Únicamente contamos con visitas guiadas al Museo Auditorio de PetStar ubicado
+                            en Toluca, México; en caso de estar interesado en una visita presencial a nuestras
+                            instalaciones, favor de enviar un correo a comunicacion@petstar.mx donde te enviaran las fechas
+                            y horarios disponibles.
+                        </p>
+                    </div>
+                    <div class="accordion">
+                        <label for="t4" class="accordionitem">
+                            <h5>
+                                ¿Reciclan todo tipo de botellas y de todas las marcas? <span class="arrow">»</span>
+                            </h5>
+                        </label>
+                        <input type="checkbox" id="t4" />
+                        <p class="hiddentext">
+                            En PetStar reciclamos solamente botellas de PET y sus componentes (tapas y
+                            etiquetas) y sí reciclamos el 100% de las botellas de PET de todas las marcas que hay en el
+                            mercado para producir resina reciclada grado alimenticio que será utilizada por nuestros
+                            accionistas parte de la Industria Mexicana de Coca-Cola.
+                        </p>
+                    </div>
 
-            <div class="accordion">
-                <label for="t3" class="accordionitem">
-                    <h5>¿Cómo puedo agendar una visita a sus instalaciones? <span class="arrow">»</span></h5>
-                </label>
-                <input type="checkbox" id="t3" />
-                <p class="hiddentext">
-                    Únicamente contamos con visitas guiadas al Museo Auditorio de PetStar ubicado
-                    en Toluca, México; en caso de estar interesado en una visita presencial a nuestras
-                    instalaciones, favor de enviar un correo a comunicacion@petstar.mx donde te enviaran las fechas
-                    y horarios disponibles.
-                </p>
-            </div>
-            <div class="accordion">
-                <label for="t4" class="accordionitem">
-                    <h5>
-                        ¿Reciclan todo tipo de botellas y de todas las marcas? <span class="arrow">»</span>
-                    </h5>
-                </label>
-                <input type="checkbox" id="t4" />
-                <p class="hiddentext">
-                    En PetStar reciclamos solamente botellas de PET y sus componentes (tapas y
-                    etiquetas) y sí reciclamos el 100% de las botellas de PET de todas las marcas que hay en el
-                    mercado para producir resina reciclada grado alimenticio que será utilizada por nuestros
-                    accionistas parte de la Industria Mexicana de Coca-Cola.
-                </p>
-            </div>
+                    <div class="accordion">
+                        <label for="t5" class="accordionitem">
+                            <h5>
+                                Estoy interesado en que me compren tapas de botellas de PET, ¿las puedo llevar a su planta?
+                                <span class="arrow">»</span>
+                            </h5>
+                        </label>
+                        <input type="checkbox" id="t5" />
+                        <p class="hiddentext">
+                            En PetStar promovemos la correcta disposición de los envases PET, por lo cual
+                            nuestro esquema de acopio se basa en la recolección y reciclaje de la botella con etiqueta y
+                            tapa; la tecnología que utilizamos no nos permite incorporar solo tapas.
+                        </p>
+                    </div>
 
-            <div class="accordion">
-                <label for="t5" class="accordionitem">
-                    <h5>
-                        Estoy interesado en que me compren tapas de botellas de PET, ¿las puedo llevar a su planta?
-                        <span class="arrow">»</span>
-                    </h5>
-                </label>
-                <input type="checkbox" id="t5" />
-                <p class="hiddentext">
-                    En PetStar promovemos la correcta disposición de los envases PET, por lo cual
-                    nuestro esquema de acopio se basa en la recolección y reciclaje de la botella con etiqueta y
-                    tapa; la tecnología que utilizamos no nos permite incorporar solo tapas.
-                </p>
-            </div>
+                    <div class="accordion">
+                        <label for="t6" class="accordionitem">
+                            <h5>¿Quiénes son los accionistas de su empresa? <span class="arrow">»</span></h5>
+                        </label>
+                        <input type="checkbox" id="t6" />
+                        <p class="hiddentext">
+                            Nuestra empresa es parte de la Industria Mexicana de Coca-Cola liderada por
+                            Arca Continental, Coca-Cola de México, Bepensa Bebidas, Corporación del Fuerte, Corporación
+                            RICA, Grupo Embotellador Nayar, Embotelladora de Colima. Estamos alineados a la campaña global
+                            de Coca-Cola, Un Mundo Sin Residuos, que busca recolectar el 100% de los empaques e incorporar
+                            hasta 50% contenido reciclado al 2030.
+                        </p>
+                    </div>
+                    <div class="accordion">
+                        <label for="t7" class="accordionitem">
+                            <h5>
+                                ¿Cuántas botellas se necesitan para hacer otra botella nueva? <span class="arrow">»</span>
+                            </h5>
+                        </label>
+                        <input type="checkbox" id="t7" />
+                        <p class="hiddentext">Se necesita una botella para crear una botella nueva del mismo gramaje.</p>
+                    </div>
 
-            <div class="accordion">
-                <label for="t6" class="accordionitem">
-                    <h5>¿Quiénes son los accionistas de su empresa? <span class="arrow">»</span></h5>
-                </label>
-                <input type="checkbox" id="t6" />
-                <p class="hiddentext">
-                    Nuestra empresa es parte de la Industria Mexicana de Coca-Cola liderada por
-                    Arca Continental, Coca-Cola de México, Bepensa Bebidas, Corporación del Fuerte, Corporación
-                    RICA, Grupo Embotellador Nayar, Embotelladora de Colima. Estamos alineados a la campaña global
-                    de Coca-Cola, Un Mundo Sin Residuos, que busca recolectar el 100% de los empaques e incorporar
-                    hasta 50% contenido reciclado al 2030.
-                </p>
-            </div>
-            <div class="accordion">
-                <label for="t7" class="accordionitem">
-                    <h5>
-                        ¿Cuántas botellas se necesitan para hacer otra botella nueva? <span class="arrow">»</span>
-                    </h5>
-                </label>
-                <input type="checkbox" id="t7" />
-                <p class="hiddentext">Se necesita una botella para crear una botella nueva del mismo gramaje.</p>
-            </div>
+                    <div class="accordion">
+                        <label for="t8" class="accordionitem">
+                            <h5>
+                                ¿Cuánta agua se usa en el proceso de hacer una nueva botella de otra botella? <span class="arrow">»</span>
+                            </h5>
+                        </label>
+                        <input type="checkbox" id="t8" />
+                        <p class="hiddentext">
+                            En PetStar contamos con tecnología de punta que nos permite utilizar
+                            aproximadamente 1 litro de agua para procesar el equivalente a 55 botellas de PET que es un uso
+                            muy eficiente de agua; misma que pasa por un proceso de tratamiento de agua para poder
+                            disponerla de acuerdo con normativa vigente. Estamos trabajando para que el proceso de reciclaje
+                            de PetStar sea cero huella hídrica.
+                        </p>
+                    </div>
 
-            <div class="accordion">
-                <label for="t8" class="accordionitem">
-                    <h5>
-                        ¿Cuánta agua se usa en el proceso de hacer una nueva botella de otra botella? <span class="arrow">»</span>
-                    </h5>
-                </label>
-                <input type="checkbox" id="t8" />
-                <p class="hiddentext">
-                    En PetStar contamos con tecnología de punta que nos permite utilizar
-                    aproximadamente 1 litro de agua para procesar el equivalente a 55 botellas de PET que es un uso
-                    muy eficiente de agua; misma que pasa por un proceso de tratamiento de agua para poder
-                    disponerla de acuerdo con normativa vigente. Estamos trabajando para que el proceso de reciclaje
-                    de PetStar sea cero huella hídrica.
-                </p>
-            </div>
-
-            <div class="accordion">
-                <label for="t9" class="accordionitem">
-                    <h5>
-                        ¿Qué tipo de tecnología se utiliza para no generar emisiones de CO2 a la atmósfera en el
-                        proceso de reciclaje? <span class="arrow">»</span>
-                    </h5>
-                </label>
-                <input type="checkbox" id="t9" />
-                <p class="hiddentext">
-                    Los procesos de reciclado de PET utilizan menos energía que el proceso de
-                    producción de resina virgen, por lo que el reciclaje es un proceso muy sustentable; la resina
-                    reciclada de PetStar tiene un 93% menos de emisiones a la atmosfera VS la resina virgen, además
-                    de que el 63% de energía proviene de fuentes renovables como energía eólica y cogeneración.
-                    Estamos trabajando para que nuestro proceso sea cero huella de carbono.
-                </p>
-            </div>
-            <div class="accordion">
-                <label for="t10" class="accordionitem">
-                    <h5>
-                        ¿Cómo puedo saber más de su proceso de acopio y reciclaje? <span class="arrow">»</span>
-                    </h5>
-                </label>
-                <input type="checkbox" id="t10" />
-                <p class="hiddentext">
-                    Si ya viviste la Experiencia PetStar, y todavía tienes dudas, escríbenos un
-                    correo a comunicacion@petstar.mx donde responderemos tus inquietudes.
-                </p>
+                    <div class="accordion">
+                        <label for="t9" class="accordionitem">
+                            <h5>
+                                ¿Qué tipo de tecnología se utiliza para no generar emisiones de CO2 a la atmósfera en el
+                                proceso de reciclaje? <span class="arrow">»</span>
+                            </h5>
+                        </label>
+                        <input type="checkbox" id="t9" />
+                        <p class="hiddentext">
+                            Los procesos de reciclado de PET utilizan menos energía que el proceso de
+                            producción de resina virgen, por lo que el reciclaje es un proceso muy sustentable; la resina
+                            reciclada de PetStar tiene un 93% menos de emisiones a la atmosfera VS la resina virgen, además
+                            de que el 63% de energía proviene de fuentes renovables como energía eólica y cogeneración.
+                            Estamos trabajando para que nuestro proceso sea cero huella de carbono.
+                        </p>
+                    </div>
+                    <div class="accordion">
+                        <label for="t10" class="accordionitem">
+                            <h5>
+                                ¿Cómo puedo saber más de su proceso de acopio y reciclaje? <span class="arrow">»</span>
+                            </h5>
+                        </label>
+                        <input type="checkbox" id="t10" />
+                        <p class="hiddentext">
+                            Si ya viviste la Experiencia PetStar, y todavía tienes dudas, escríbenos un
+                            correo a comunicacion@petstar.mx donde responderemos tus inquietudes.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-
     </div>
 </div>
 
@@ -1008,6 +1348,10 @@ $(function () {
 
     $(document).ready(function () {
 
+        $('#carousel-traveler').carousel({
+            interval: false,
+            pause: "hover"
+        });
 
         //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
         $('#traveler').parallax("50%", 0.5);
@@ -1142,6 +1486,16 @@ $(function () {
     //var closeButton = document.querySelector(".close-button");
 
 
+    function SendMailFinalizar() {
+        $("#loader").fadeIn();
+
+        $.get("/Home/SendMail", function (data, status) {
+            sessionStorage.removeItem('accessToken'); $('#logoutForm').submit();
+        });
+
+    }
+
+
     $("#modalTravelerOne").on('show.bs.modal', function () {
 
         $(this).find("iframe").attr("src", "imagenes/Me ahogo FINAL.mp4");
@@ -1168,7 +1522,71 @@ $(function () {
     });
 
     $("#modalresiduos").on('show.bs.modal', function () {
-        $(this).find("iframe").attr("src", "https://www.youtube.com/embed/zUlLouqfWiA?autoplay=1");
+        $(this).find("iframe").attr("src", "https://www.youtube.com/embed/6aerrtTxN8M?autoplay=1");
+        $(this).find("iframe").contents().find('video').each(function () {
+            this.currentTime = 0;
+            this.play();
+        });
+    });
+
+    $("#modalfond5").on('show.bs.modal', function () {
+        $(this).find("iframe").attr("src", "https://www.youtube.com/embed/wEvvj-9nxeg?autoplay=1");
+        $(this).find("iframe").contents().find('video').each(function () {
+            this.currentTime = 0;
+            this.play();
+        });
+    });
+
+    $("#modalfond6").on('show.bs.modal', function () {
+        $(this).find("iframe").attr("src", "https://www.youtube.com/embed/2BaXGWvDS5A");
+        $(this).find("iframe").contents().find('video').each(function () {
+            this.currentTime = 0;
+            this.play();
+        });
+    });
+
+    $("#modalfond7").on('show.bs.modal', function () {
+        $(this).find("iframe").attr("src", "https://www.youtube.com/embed/CmvQhM7U0DE");
+        $(this).find("iframe").contents().find('video').each(function () {
+            this.currentTime = 0;
+            this.play();
+        });
+    });
+
+    $("#modalfond8").on('show.bs.modal', function () {
+        $(this).find("iframe").attr("src", "https://www.youtube.com/embed/NSwJNs3QkT0");
+        $(this).find("iframe").contents().find('video').each(function () {
+            this.currentTime = 0;
+            this.play();
+        });
+    });
+
+    $("#modalfond9").on('show.bs.modal', function () {
+        $(this).find("iframe").attr("src", "https://www.youtube.com/embed/OpDCL5TAGKg");
+        $(this).find("iframe").contents().find('video').each(function () {
+            this.currentTime = 0;
+            this.play();
+        });
+    });
+
+    $("#modalfond10").on('show.bs.modal', function () {
+        $(this).find("iframe").attr("src", "https://www.youtube.com/embed/RVizXCnMvmg");
+        $(this).find("iframe").contents().find('video').each(function () {
+            this.currentTime = 0;
+            this.play();
+        });
+    });
+
+    $("#modalfond11").on('show.bs.modal', function () {
+        $(this).find("iframe").attr("src", "https://www.youtube.com/embed/yrgsu_rYqoM");
+        $(this).find("iframe").contents().find('video').each(function () {
+            this.currentTime = 0;
+            this.play();
+        });
+    });
+
+    $("#modalfond12").on('show.bs.modal', function () {
+        $(this).find("iframe").attr("src", "https://www.youtube.com/embed/SBFeGyb55mM");
         $(this).find("iframe").contents().find('video').each(function () {
             this.currentTime = 0;
             this.play();
@@ -1205,12 +1623,14 @@ $(function () {
                 this.pause();
             });
         });
+
         $('#modalTravelerTwo').on('hide.bs.modal', function () {
             $(this).find("iframe").contents().find('video').each(function () {
                 this.currentTime = 0;
                 this.pause();
             });
         });
+
         $('#modalTravelerThree').on('hide.bs.modal', function () {
             $(this).find("iframe").contents().find('video').each(function () {
                 this.currentTime = 0;
@@ -1219,6 +1639,38 @@ $(function () {
         });
 
         $('#modalresiduos').on('hide.bs.modal', function () {
+            $(this).find("iframe").attr("src", "");
+        });
+
+        $('#modalfond5').on('hide.bs.modal', function () {
+            $(this).find("iframe").attr("src", "");
+        });
+
+        $('#modalfond6').on('hide.bs.modal', function () {
+            $(this).find("iframe").attr("src", "");
+        });
+
+        $('#modalfond7').on('hide.bs.modal', function () {
+            $(this).find("iframe").attr("src", "");
+        });
+
+        $('#modalfond8').on('hide.bs.modal', function () {
+            $(this).find("iframe").attr("src", "");
+        });
+
+        $('#modalfond9').on('hide.bs.modal', function () {
+            $(this).find("iframe").attr("src", "");
+        });
+
+        $('#modalfond10').on('hide.bs.modal', function () {
+            $(this).find("iframe").attr("src", "");
+        });
+
+        $('#modalfond11').on('hide.bs.modal', function () {
+            $(this).find("iframe").attr("src", "");
+        });
+
+        $('#modalfond12').on('hide.bs.modal', function () {
             $(this).find("iframe").attr("src", "");
         });
     });

@@ -120,8 +120,10 @@ img {
     position: fixed;
     right: 44px;
     z-index: 50;
-    height: 280px;
+    /*    height: 280px;*/
     margin-top: 40px;
+    text-align: right;
+    display:none;
 }
 
 
@@ -504,7 +506,7 @@ img {
     background-color: #dbdbdb;
     background-size: cover;
     color: white;
-    height: 100%;
+    height: 103%;
     width: 100%;
     padding: 0;
 }
@@ -938,13 +940,14 @@ body {
     bottom: 10%;
     /*right:40px;*/
     left: 40px;
-    background: url(http://healink.com.mx/wp-content/uploads/2020/10/ajolote2.png);
-    /*   background-size: fixed;*/
+    background: url(../imagenes/axolt.png);
+    background-size: contain;
     background-position: center;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
     opacity: 0.8;
+    display:none;
     /*box-shadow: 2px 2px 3px #999;*/
 }
 
@@ -1039,7 +1042,8 @@ a.float2:hover + div.label-container2 {
     height: 122px;
     bottom: 70%;
     left: 40px;
-    background: url(http://healink.com.mx/wp-content/uploads/2020/10/ajolote2.png);
+    background: url(../imagenes/axolt.png);
+    background-size:contain;
     background-position: center;
     color: #FFF;
     border-radius: 50px;
@@ -1047,7 +1051,7 @@ a.float2:hover + div.label-container2 {
 }
 
 .fin {
-    background: url(../imagenes/FIN.png) 0 no-repeat;
+    background: url('../imagenes/fin/FIN (2).png') 0 no-repeat;
     background-position: center;
     background-size: contain;
     position: absolute;
@@ -1105,7 +1109,8 @@ a.float3:hover + div.label-container3 {
     height: 122px;
     bottom: 70%;
     left: 40px;
-    background: url(http://healink.com.mx/wp-content/uploads/2020/10/ajolote2.png);
+    background: url(../imagenes/axolt.png);
+    background-size:contain;
     background-position: center;
     color: #FFF;
     border-radius: 50px;
@@ -1170,7 +1175,8 @@ a.float4:hover + div.label-container4 {
     height: 122px;
     bottom: 70%;
     left: 40px;
-    background: url(http://healink.com.mx/wp-content/uploads/2020/10/ajolote2.png);
+    background: url(../imagenes/axolt.png);
+    background-size: contain;
     background-position: center;
     color: #FFF;
     border-radius: 50px;
@@ -1183,6 +1189,7 @@ a.float4:hover + div.label-container4 {
     background: url(../imagenes/5.png) 0 no-repeat;
     background-position: left;
     background-size: contain;
+    background-repeat:no-repeat;
     position: relative;
     height: 100%;
     width: 100%;
@@ -1236,7 +1243,8 @@ a.float5:hover + div.label-container5 {
     height: 122px;
     bottom: 75%;
     right: 125px;
-    background: url(http://healink.com.mx/wp-content/uploads/2020/10/ajolote2.png);
+    background: url(../imagenes/axolt.png);
+    background-size: contain;
     background-position: center;
     color: #FFF;
     border-radius: 50px;
@@ -1304,7 +1312,7 @@ a.float7:hover + div.label-container7 {
     height: 163px;
     bottom: 50%;
     left: 40px;
-    background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
+    background: url(../imagenes/Botellin2.png);
     background-position: center;
     color: #FFF;
     border-radius: 50px;
@@ -1370,7 +1378,7 @@ a.float8:hover + div.label-container8 {
     height: 163px;
     bottom: 50%;
     left: 40px;
-    background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
+    background: url(../imagenes/Botellin2.png);
     background-position: center;
     color: #FFF;
     border-radius: 50px;
@@ -1436,7 +1444,7 @@ a.float9:hover + div.label-container9 {
     height: 163px;
     bottom: 50%;
     left: 40px;
-    background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
+    background: url(../imagenes/Botellin2.png);
     background-size: fixed;
     background-position: center;
     color: #FFF;
@@ -1504,7 +1512,7 @@ a.float10:hover + div.label-container10 {
     height: 163px;
     bottom: 50%;
     left: 40px;
-    background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
+    background: url(../imagenes/Botellin2.png);
     background-position: center;
     color: #FFF;
     border-radius: 50px;
@@ -1570,7 +1578,7 @@ a.float11:hover + div.label-container11 {
     height: 163px;
     bottom: 50%;
     left: 40px;
-    background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
+    background: url(../imagenes/Botellin2.png);
     background-position: center;
     color: #FFF;
     border-radius: 50px;
@@ -1636,7 +1644,7 @@ a.float12:hover + div.label-container12 {
     height: 163px;
     bottom: 50%;
     left: 40px;
-    background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
+    background: url(../imagenes/Botellin2.png);
     background-size: fixed;
     background-position: center;
     color: #FFF;
@@ -1703,7 +1711,7 @@ a.float13:hover + div.label-container13 {
     height: 163px;
     bottom: 50%;
     left: 40px;
-    background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
+    background: url(../imagenes/Botellin2.png);
     background-position: center;
     color: #FFF;
     border-radius: 50px;
@@ -1769,7 +1777,7 @@ a.float14:hover + div.label-container14 {
     height: 163px;
     bottom: 50%;
     left: 40px;
-    background: url(http://healink.com.mx/wp-content/uploads/2020/10/Botellin2.png);
+    background: url(../imagenes/Botellin2.png);
     background-position: center;
     color: #FFF;
     border-radius: 50px;
@@ -1796,8 +1804,8 @@ a.float14:hover + div.label-container14 {
     background-color: rgba(27,127,204,.8);
     width: 800px;
     height: auto;
-    /*margin-top: 160px;*/
     text-align: center;
+    margin: 0px 0px 0px 50px;
 }
 
 
@@ -1914,19 +1922,26 @@ a.float14:hover + div.label-container14 {
 /*tabs 2*/
 
 
-.column {
-    flex: 60%;
-    padding: 10px;
-    height: 860px;
-    width: auto;
+.column-ps-uno {
+    height: 100%;
+    width: 40%;
+    display: inline-block;
+    margin-right:-4px;
 }
 
-.column1 {
-    flex: 40%;
-    padding: 10px;
-    height: 860px;
-    width: auto;
+.column-ps-dos {
+    height: 100%;
+    width: 60%;
+    display: inline-block;
+    margin-right: -4px;
 }
+
+    .column1 {
+        flex: 40%;
+        padding: 10px;
+        height: 860px;
+        width: auto;
+    }
 
 .column2 {
     flex: 70%;
@@ -2108,9 +2123,10 @@ input#t10 {
     background: url(../imagenes/hacertu.png) 0 no-repeat;
     background-position: right;
     background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
     height: 100%;
-    width: 95%;
+    width: 100%;
     color: white;
     margin: 0 auto;
     padding: 0;
@@ -2510,7 +2526,7 @@ element.style {
 }
 
 #contRegistro .formLogin {
-    width: 366px;
+    width: 100%;
 }
 
 .formLogin .btn-signup {
@@ -2552,14 +2568,799 @@ element.style {
     margin: 18px;
 }
 
+.fade-in {
+    opacity: 0.8;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 12s;
+}
 
-@media (min-width: 576px) {
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+        bottom: 400px;
+        filter: blur(5px);
+    }
+
+    50% {
+        opacity: 0.8;
+        bottom: 200px;
+        filter: blur(0px);
+    }
+
+    100% {
+        opacity: 0.8;
+        bottom: 100px;
+        filter: blur(0px);
+    }
+}
+
+
+
+
+
+
+#logo {
+    width:100%;
+}
+
+
+
+#frmTravelerOne {
+    width: 100%;
+}
+
+#frmTravelerTwo {
+    width: 100%;
+}
+
+#frmTravelerThree {
+    width: 100%;
+}
+#frmResiduos {
+    width: 100%;
+}
+
+#frmFond5, #frmFond6, #frmFond7, #frmFond8, #frmFond9, #frmFond10, #frmFond11, #frmFond12 {
+    width: 100%;
+}
+
+.li-pet {
+    font-size: 12px;
+}
+
+.nav-tabs > li.active > a {
+    background-color: #009ddc !important;
+    color:white !important;
+}
+
+.carousel-indicators {
+    position: relative !important;
+}
+
+.content-mobile {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.content-other {
+    display: none;
+    /*height: 100%;
+    width: 100%;*/
+}
+
+/*===================*/
+
+/*===================*/
+
+.intro-titulo {
+    background-image: url(../../imagenes/seccionUno/titulo.png);
+    height: 30%;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.intro-contenido {
+    background-image: url(../../imagenes/seccionUno/contenido.png);
+    height: 50%;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.intro-bienvenido {
+    background-image: url(../../imagenes/seccionUno/bienvenidos.png);
+    height: 20%;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+/*===================*/
+
+/*===================*/
+
+.fond19-uno {
+    background-image: url(../../imagenes/seccionDos/uno.png);
+    height: 15%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond19-dos {
+    background-image: url(../../imagenes/seccionDos/dos.png);
+    height: 15%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond19-tres {
+    background-image: url(../../imagenes/seccionDos/tres.png);
+    height: 15%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond19-cuatro {
+    background-image: url(../../imagenes/seccionDos/cuatro.png);
+    height: 15%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond19-cinco {
+    background-image: url(../../imagenes/seccionDos/cinco.png);
+    height: 25%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond19-seis {
+    background-image: url(../../imagenes/seccionDos/seis.png);
+    height: 15%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*===================*/
+
+/*===================*/
+
+.traveler-titulo {
+    background-image: url(../../imagenes/seccionTres/titulo.png);
+    height: 30%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.traveler-contenido {
+    background-position: center;
+    background-size: contain;
+    height: 70%;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*===================*/
+
+/*===================*/
+
+.third-titulo {
+    background-image: url(../../imagenes/seccionCuatro/titulo.png);
+    height: 25%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.third-play {
+    background-image: url(../../imagenes/seccionCuatro/play.png);
+    height: 5%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.third-contenido {
+    background-image: url(../../imagenes/seccionCuatro/contenido.png);
+    height: 60%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.third-boton {
+    background-image: url(../../imagenes/seccionCuatro/boton.png);
+    height: 5%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*===================*/
+
+/*===================*/
+
+.hipster-titulo {
+    background-image: url(../../imagenes/seccionCinco/titulo.png);
+    height: 20%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.hipster-contenido {
+    height: 50%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.hipster-pie {
+    background-image: url(../../imagenes/seccionCinco/pie.png);
+    height: 30%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*===================*/
+
+/*===================*/
+
+.fond5-titulo {
+    background-image: url(../../imagenes/seccionSeis/titulo.png);
+    height: 20%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond5-contenido {
+    background-image: url(../../imagenes/seccionSeis/contenido.png);
+    height: 50%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond5-pie {
+    background-image: url(../../imagenes/seccionSeis/pie.png);
+    height: 30%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*===================*/
+
+/*===================*/
+
+.fond6-titulo {
+    background-image: url(../../imagenes/seccionSiete/titulo.png);
+    height: 20%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond6-contenido {
+    background-image: url(../../imagenes/seccionSiete/contenido.png);
+    height: 50%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond6-pie {
+    background-image: url(../../imagenes/seccionSiete/pie.png);
+    height: 30%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*===================*/
+
+/*===================*/
+
+.fond7-titulo {
+    background-image: url(../../imagenes/seccionOcho/titulo.png);
+    height: 20%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond7-contenido {
+    background-image: url(../../imagenes/seccionOcho/contenido.png);
+    height: 50%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond7-pie {
+    background-image: url(../../imagenes/seccionOcho/pie.png);
+    height: 30%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*===================*/
+
+/*===================*/
+
+.fond8-titulo {
+    background-image: url(../../imagenes/seccionNueve/titulo.png);
+    height: 20%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond8-contenido {
+    background-image: url(../../imagenes/seccionNueve/contenido.png);
+    height: 50%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond8-pie {
+    background-image: url(../../imagenes/seccionNueve/pie.png);
+    height: 30%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*===================*/
+
+/*===================*/
+
+.fond9-titulo {
+    background-image: url(../../imagenes/seccionDiez/titulo.png);
+    height: 20%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond9-contenido {
+    background-image: url(../../imagenes/seccionDiez/contenido.png);
+    height: 50%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond9-pie {
+    background-image: url(../../imagenes/seccionDiez/pie.png);
+    height: 30%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*===================*/
+
+/*===================*/
+
+.fond10-titulo {
+    background-image: url(../../imagenes/seccionOnce/titulo.png);
+    height: 20%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond10-contenido {
+    background-image: url(../../imagenes/seccionOnce/contenido.png);
+    height: 50%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond10-pie {
+    background-image: url(../../imagenes/seccionOnce/pie.png);
+    height: 30%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*===================*/
+
+/*===================*/
+
+
+.fond11-titulo {
+    background-image: url(../../imagenes/seccionDoce/titulo.png);
+    height: 20%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond11-contenido {
+    background-image: url(../../imagenes/seccionDoce/contenido.png);
+    height: 50%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond11-pie {
+    background-image: url(../../imagenes/seccionDoce/pie.png);
+    height: 30%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*===================*/
+
+/*===================*/
+
+.fond12-titulo {
+    background-image: url(../../imagenes/seccionTrece/titulo.png);
+    height: 20%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond12-contenido {
+    background-image: url(../../imagenes/seccionTrece/contenido.png);
+    height: 50%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond12-pie {
+    background-image: url(../../imagenes/seccionTrece/pie.png);
+    height: 30%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*===================*/
+
+/*===================*/
+
+
+.fond13-titulo {
+    background-image: url();
+    height: 20%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond13-contenido {
+    height: 50%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond13-pie {
+    background-image: url();
+    height: 30%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*===================*/
+
+/*===================*/
+
+
+.fond14-titulo {
+    background-image: url(../imagenes/seccionFinalizar/titulo.png);
+    height: 20%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond14-dudas {
+    background-image: url(../imagenes/seccionFinalizar/dudas.png);
+    height: 20%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond14-encuesta {
+    background-image: url(../imagenes/seccionFinalizar/encuesta.png);
+    height: 20%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond14-texto {
+    background-image: url(../imagenes/seccionFinalizar/texto.png);
+    height: 30%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fond14-finalizar {
+    background-image: url(../imagenes/seccionFinalizar/finalizar.png);
+    height: 6%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*===================*/
+
+/*===================*/
+
+
+@media (min-width: 600px) {
+
+    #contRegistro .formLogin {
+        width: 100%;
+    }
+
+    #logo {
+        width: 250px;
+    }
+
+    .content-mobile {
+        display: block;
+    }
+
+    .content-other {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    .float {
+        display: block;
+    }
+
+    .inicioExt, .inicio5 {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) {
+    /*.inicio {
+        background: url(../imagenes/1.png) 0 no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 100%;
+    }*/
+
+    #contRegistro .formLogin {
+        width: 100%;
+    }
+
+    #logo {
+        width: 130px;
+    }
+
+    .content-mobile {
+        display: block;
+    }
+
+    .content-other {
+        display: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    .float {
+        display: none;
+    }
+
+    .inicioExt, .inicio5 {
+        display: none;
+    }
 }
 
 @media (min-width: 992px) {
+
+    #contRegistro .formLogin {
+        width: 366px;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    .inicioExt, .inicio5 {
+        display: block;
+    }
+
+    .content-mobile {
+        display: none;
+    }
+
+    .content-other {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    .float {
+        display: block;
+    }
 
     .trigger {
         height: 200px;
@@ -2654,6 +3455,29 @@ element.style {
 }
 
 @media (min-width: 1200px) {
+
+    #contRegistro .formLogin {
+        width: 366px;
+    }
+
+    .inicioExt, .inicio5 {
+        display: block;
+    }
+
+    .content-mobile {
+        display: none;
+    }
+    .content-other {
+        display:block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    .float {
+        display: block;
+    }
 
     .trigger {
         height: 300px;

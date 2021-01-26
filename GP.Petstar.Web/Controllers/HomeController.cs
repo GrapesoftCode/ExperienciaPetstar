@@ -33,14 +33,22 @@ namespace GP.Petstar.Web.Controllers
 
                 String Msg_HTMLx = @"<html>
 	                                <body>
-                                        <a href='https://www.petstar.mx/'>
-                                            <img src = 'http://" + url + @"/images/C2.jpg' class='image' style='max-width: 100%;' />
+                                         <a href='https://www.petstar.mx/petstar/contacto/'>
+                                            <img src = 'http://" + url + @"/images/FinRecorrido/news-02.jpg' class='image' style='max-width: 100%;' />
 			                            </a>
-                                        <a href='https://www.petstar.mx/petstar/contacto/'>
-                                            <img src = 'http://" + url + @"/images/2.jpg' class='image' style='max-width: 100%;' />
+                                        <a href='https://www.petstar.mx/'>
+                                            <img src = 'http://" + url + @"/images/FinRecorrido/Credencial-02.png' class='image' style='max-width: 100%;' />
 			                            </a>
 	                                </body>
                                 </html>";
+
+
+                               //         <a href='https://www.petstar.mx/petstar/contacto/'>
+                               //             <img src = 'http://" + url + @"/images/2.jpg' class='image' style='max-width: 100%;' />
+			                            //</a>
+                               //         <a href='https://www.petstar.mx/'>
+                               //             <img src = 'http://" + url + @"/images/C2.jpg' class='image' style='max-width: 100%;' />
+			                            //</a>
                 #endregion
 
 
